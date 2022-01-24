@@ -17,8 +17,8 @@ The figure above shows a sample of the Instances view in cPouta web
 interface. In this case, we can see that a virtual machine called
 *test-instance-1* is active and running. The machine has two IP
 addresses, of which the address 86.50.169.56 is the public one. The
-machine uses a keypair called *skapoor*. The ePouta web interface looks 
-similar but the instances in ePouta have only one IP address field 
+machine uses a keypair called *skapoor*. The ePouta web interface looks
+similar but the instances in ePouta have only one IP address field
 specified which is the virtual machine's local IP.
 
 When your virtual machine has a public floating IP assigned in the cPouta
@@ -51,16 +51,20 @@ get a message that tells you which username to use instead. Some third-party
 images may use the root account directly or a completely
 different username.
 
-Instead of specifying the path to the key to use for the SSH connection 
+!!! Tip
+    For modern versions of **Windows** (`Windows 10 Fall 2018 build update` or newer), the `ssh` command is installed by default in PowerShell.
+    For older versions, you need to install it yourself or use Putty.
+
+Instead of specifying the path to the key to use for the SSH connection
 each time, you can use an *SSH agent*. To use a *SSH agent* in your
-local Linux or Mac OS X machine, start a shell and run the following 
+local **Linux** or **Mac OS X** machine, start a shell and run the following
 commands:
 
     ssh-agent /bin/bash
     ssh-add ~/.ssh/keyname.pem
 
-Now you should be able to connect to the public floating IP of your VM 
-in cPouta (or VM local IP in case of ePouta) using SSH without the need 
+Now you should be able to connect to the public floating IP of your VM
+in cPouta (or VM local IP in case of ePouta) using SSH without the need
 of specifying the key:
 
     #for cPouta VMs
@@ -70,22 +74,22 @@ of specifying the key:
     ssh cloud-user@vm-ip
 
 !!! Tip
-    You can enable *agent forwarding* when connecting through SSH to a 
+    You can enable *agent forwarding* when connecting through SSH to a
     virtual machine by using the *-A* flag.
 
         ssh -A cloud-user@public-ip
 
-    By enabling agent forwarding, you enable the ssh agent running on 
-    the virtual machine to make use of the keys which are loaded in the 
-    ssh agent of your local workstation. You can use this feature to 
+    By enabling agent forwarding, you enable the ssh agent running on
+    the virtual machine to make use of the keys which are loaded in the
+    ssh agent of your local workstation. You can use this feature to
     reduce the number of floating IPs used in your project:
-    
+
     1. Assign a floating IP to one of your instances
     2. ssh to the instance enabling agent forwarding
     3. You can now ssh from this instance to the other instances in the
        network using their private IP
-    
-    Using these steps, you need only a single public IP instead of one 
+
+    Using these steps, you need only a single public IP instead of one
     public IP for each of the instances.
 
     **Warning**: using agent forwarding has some [security implications](https://blog.wizardsoftheweb.pro/ssh-agent-forwarding-vulnerability-and-alternative/#thevulnerability)
@@ -110,19 +114,19 @@ they need to be created separately.
 
 ## Connect to a machine using the Pouta virtual console
 
-The recommended way of accessing Pouta instances is through an SSH 
-connection, as explained earlier. Nevertheless, if you suddenly find 
-yourself experiencing issues with the SSH connection for example, the 
-web interface includes a console tool that you can use to access your 
+The recommended way of accessing Pouta instances is through an SSH
+connection, as explained earlier. Nevertheless, if you suddenly find
+yourself experiencing issues with the SSH connection for example, the
+web interface includes a console tool that you can use to access your
 virtual machine directly.
 
-In order to be able to use the console, **you need to set up a 
-password-based user account first**. Once connected through SSH to your 
+In order to be able to use the console, **you need to set up a
+password-based user account first**. Once connected through SSH to your
 instance, you can use tools such as [useradd](https://linux.die.net/man/8/useradd)
-and [passwd](https://linux.die.net/man/1/passwd) to set up this type of 
+and [passwd](https://linux.die.net/man/1/passwd) to set up this type of
 account. As indicated in our [security guidelines](../security/#disable-password-login-use-keys),
 please do not enable remote login for this password-based account, but
-rather use it only in case you need to access the instance though the 
+rather use it only in case you need to access the instance though the
 console.
 
 You can open a console session by clicking **Console** in the
@@ -138,5 +142,5 @@ After this, you can log in with the user account and password you have
 created.
 
 !!! note
-    *Umlaut* characters, such as *ä* or *ö*, do not work in the virtual 
+    *Umlaut* characters, such as *ä* or *ö*, do not work in the virtual
     console for most keymaps.
