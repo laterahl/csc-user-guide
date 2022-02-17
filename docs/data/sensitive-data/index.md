@@ -1,5 +1,5 @@
 
-# Sensitive Data Services for Research User Guide
+# Sensitive Data Services for Research: user guide
 
 This guide, in CSC Docs, introduces CSC Sensitive Data Services. 
 
