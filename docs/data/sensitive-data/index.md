@@ -20,7 +20,7 @@ For general informations, see:
 [Sensitive Data services webpage](https://research.csc.fi/sensitive-data-services-for-research), general [FAQs](../sensitive-data/faq_index.md), services descriptions in [CSC service catalog](https://research.csc.fi/service-catalog).
 
 
-**Do you have any question? Our team is here to help**. Don't esitate to conatct us at servicedesk@csc.fi (subject: Sensitive Data).
+**If you can not find what you are looking for**, don't esitate to conatct us at servicedesk@csc.fi (subject: Sensitive Data), our team is here to help.
 
 
   
