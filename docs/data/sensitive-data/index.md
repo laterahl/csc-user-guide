@@ -82,7 +82,7 @@ For general informations, see:
 
   
   
-## Federated EGA: publish genetic data under controlled access
+## [Finnish Federated EGA](./federatedega.md)
  
 *  **Data submission process: Overview**
 
@@ -95,8 +95,6 @@ For general informations, see:
 * **Data formats**
 
 * **Data encryption and uplaod to the Finnish Node**
-          SDA graphical user interface
-          Command-line interface
           
  * **Metadata submission using Central EGA submitter portal**
  
