@@ -24,7 +24,7 @@ Sensitive Data services webpage, general FAQs, services descriptions in CSC serv
 
 
   
-## [Sensitive Data Connect (SD Connect): store and share](./sd_connect.md)
+## [Sensitive Data Connect](./sd_connect.md)
    
  * **Before you start**
  
@@ -46,7 +46,7 @@ Sensitive Data services webpage, general FAQs, services descriptions in CSC serv
  
  * **Data encryption for data sharing (less then 100 GB) -  User Interface**
  
- * **Data encryption for data sharing  - Commanf Line Interface** (./crypt4gh_client.md )
+ * [**Data encryption for data sharing - Commanf Line Interface**](./crypt4gh_client.md )
  
  * **Download**
 
@@ -55,7 +55,7 @@ Sensitive Data services webpage, general FAQs, services descriptions in CSC serv
 
   
 
-## [Sensitive Data Desktop (SD Desktop: compute and analyse)](./sd_desktop.md)
+## [Sensitive Data Desktop](./sd_desktop.md)
 
   * **Before you start**
   
@@ -69,9 +69,9 @@ Sensitive Data services webpage, general FAQs, services descriptions in CSC serv
 
   * **Working with SD Desktop**
 
-  * **Pre-installed software**(./pre-installed_software.md)
+  * [**Pre-installed software**](./pre-installed_software.md)
   
-  * **Utilizing singularity containers in SD Desktop**(sd-desktop-singularity.md)
+  * [**Utilizing singularity containers in SD Desktop**](sd-desktop-singularity.md)
 
   * **Data Export**
 
