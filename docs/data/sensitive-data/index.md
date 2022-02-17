@@ -18,8 +18,7 @@ Below you can:
 
 
 For general informations, see:
-
-Sensitive Data services webpage, general FAQs, services descriptions in CSC service catalog. 
+[Sensitive Data services webpag](https://research.csc.fi/sensitive-data-services-for-research), general [FAQs](../sensitive-data/faq_index.md)., services descriptions in [CSC service catalog](https://research.csc.fi/service-catalog).
 
 
 
