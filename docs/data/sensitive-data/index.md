@@ -46,7 +46,7 @@ Sensitive Data services webpage, general FAQs, services descriptions in CSC serv
  
  * **Data encryption for data sharing (less then 100 GB) -  User Interface**
  
- * **Data encryption for data sharing  - Commanf Line Interface**
+ * **Data encryption for data sharing  - Commanf Line Interface** (./crypt4gh_client.md )
  
  * **Download**
 
@@ -69,9 +69,9 @@ Sensitive Data services webpage, general FAQs, services descriptions in CSC serv
 
   * **Working with SD Desktop**
 
-  * **Pre-installed software**
+  * **Pre-installed software**(./pre-installed_software.md)
   
-  * **Utilizing singularity containers in SD Desktop**
+  * **Utilizing singularity containers in SD Desktop**(sd-desktop-singularity.md)
 
   * **Data Export**
 
@@ -110,6 +110,7 @@ Sensitive Data services webpage, general FAQs, services descriptions in CSC serv
 * **Data approval for DACS**
   
   
+  
   ## SD Apply: re-use
   
   **Data access for applicants: Overview**
@@ -133,77 +134,21 @@ Sensitive Data services webpage, general FAQs, services descriptions in CSC serv
 
 
 
-## [Introduction](./intro.md)
-
-   
-   * **Summary**
-   
-   * **Getting access**
-   
-   * **Quickstart:Processing sensitive data using SD Desktop**
-   
-   * **Quickstart:Sharing sensitive data with SD Connect**
-   
-   * **Useful terminology**
-
-
-  
-## [Sensitive Data Connect (SD Connect)](./sd_connect.md)
-   
- * **Before you start**
-
- * **Login**
-   
- * **User Interface Pages**
-   
- * **Sensitive data encryption and upload (less than 1 GB)**
- 
- * **Sensitive data encryption and upload (less than 100 GB)**
- 
- * **Data encryption and upload with Sensitive Data encryption key - Command Line Interface**
-       
- * **Data Sharing**
- 
- * **Troubleshooting**
 
   
 
-## [Sensitive Data Desktop (SD Desktop)](./sd_desktop.md)
-
-  * **Before you start**
-
-  * **Login**
-
-  * **Launching your Desktop (or your private computing environment)**
-
-  * **Importing encrypted sensitive data to SD Desktop**
-
-  * **RStudio in SD Desktop**
-
-  * **Deleting your computing environment**
-
-  * **Data export from SD Desktop**
-  
-   * **Troubleshooting**
   
 
 
 
-## [Pre-installed software in SD Desktop](./pre-installed_software.md)
 
 
-## [Utilizing singularity containers in SD Desktop](sd-desktop-singularity.md)
 
 
-## [Data encryption for data sharing](./crypt4gh_client.md )
-  
-  * **Before you start**
 
-  * **Crypt4GH Graphical User Interface (GUI)**
 
-  * **Crypt4GH Command Line Interface (CLI)**
 
- * **Troubleshooting**
+
 
   
 
