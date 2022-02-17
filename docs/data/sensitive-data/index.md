@@ -74,7 +74,7 @@ Analyse and compute.
   
   * [**Utilizing singularity containers in SD Desktop**](sd-desktop-singularity.md)
 
-  * **Data Export**
+  * **Data export**
 
   * **Deleting a Desktop**
   
