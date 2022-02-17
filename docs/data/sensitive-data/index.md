@@ -16,14 +16,16 @@ Below you can:
 
 
 
-
 For general informations, see:
 [Sensitive Data services webpage](https://research.csc.fi/sensitive-data-services-for-research), general [FAQs](../sensitive-data/faq_index.md), services descriptions in [CSC service catalog](https://research.csc.fi/service-catalog).
 
 
+**Do you have any question? Our team is here to help**. Don't esitate to conatct us at servicedesk@csc.fi (subject: Sensitive Data).
+
 
   
 ## [Sensitive Data Connect](./sd_connect.md)
+Store and share.
    
  * **Before you start**
  
@@ -55,6 +57,7 @@ For general informations, see:
   
 
 ## [Sensitive Data Desktop](./sd_desktop.md)
+Analise and compute.
 
   * **Before you start**
   
@@ -83,6 +86,7 @@ For general informations, see:
   
   
 ## [Finnish Federated EGA](./federatedega.md)
+Publish genetic data under controlled access.
  
 *  **Data submission process: Overview**
 
@@ -108,7 +112,8 @@ For general informations, see:
   
   
   
-  ## SD Apply: re-use
+  ## SD Apply
+  Apply for re-use.
   
   **Data access for applicants: Overview**
   
