@@ -11,16 +11,15 @@ Below you can:
 
 * watch **1 to 3 minutes video** tutorials that will support you through each step;
 
-* find quick techincal suggestions in the **troubleshooting table**.
+* find quick technical suggestions in the **troubleshooting table**.
 
 
 
-
-For general informations, see:
+For general information, see:
 [Sensitive Data services webpage](https://research.csc.fi/sensitive-data-services-for-research), general [FAQs](../sensitive-data/faq_index.md), services descriptions in [CSC service catalog](https://research.csc.fi/service-catalog).
 
 
-**If you can not find what you are looking for**, don't esitate to conatct us at servicedesk@csc.fi (subject: Sensitive Data), our team is here to help.
+**If you can not find what you are looking for**, don't hesitate to contact us at servicedesk@csc.fi (subject: Sensitive Data). Our team is here to help.
 
 
   
@@ -57,7 +56,7 @@ Store and share.
   
 
 ## [Sensitive Data Desktop](./sd_desktop.md)
-Analise and compute.
+Analyse and compute.
 
   * **Before you start**
   
@@ -112,8 +111,8 @@ Publish genetic data under controlled access.
   
   
   
-  ## [SD Apply](./sd-apply.md)
-  Apply for re-use.
+## [SD Apply](./sd-apply.md)
+Apply for re-use.
   
   **Data access for applicants: Overview**
   
