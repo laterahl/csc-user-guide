@@ -111,7 +111,7 @@ Publish genetic data under controlled access.
   
   
   
-## [SD Apply](./sd-apply.md)
+## [Sensitive Data Apply](./sd-apply.md)
 Apply for re-use.
   
   **Data access for applicants: Overview**
