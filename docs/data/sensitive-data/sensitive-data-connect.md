@@ -22,5 +22,5 @@ collect data, share data or submit them to a specific repository.
 SD Connect is a specific user interface that facilitates the use of Allas during sensitive data management. 
 In contrast, Allas is a general cloud storage solution for non-sensitive and encrypted sensitive data. It is accessible through various clients or user interfaces. 
 
-## Can I use SD Connect from command line?
-You can operate (upload, download, delte) the SD Connect objects with any Allas interface. However to be compatible with the SD services you must encrypt the data with CSC public key before upload. a-put command has an option that enables this. Alternatively you can do the encryption yourself with crypt4gh. Note that even though you are able to download the encrypted object to your local environment, you can't convert the data into readable format if it is encrypted with CSC public key only. 
+## Can I use SD Connect from the command line?
+You can operate (upload, download, delete) the SD Connect objects with any Allas interface. However, to be compatible with the SD services, you must encrypt the data with CSC public key before upload. a-put command has an option that enables this. Alternatively, you can do the encryption yourself with crypt4gh. Note that even though you can download the encrypted object to your local environment, you can't convert the data into readable format if it is encrypted with CSC public key only. 
