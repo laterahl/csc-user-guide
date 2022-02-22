@@ -7,9 +7,13 @@ Below you can:
 
 * find an overview and **key features** of each service;
 
-* follow **simplified, step-by-step** instructions on how to access and set up the services (note: no technical knowledge needed);
+* follow **simplified, step-by-step** instructions on how to access and set up the services;
+
+No previous knoledge is required. Specific paraghraph are marekd as *advanced* is techical and coding skills are required. 
 
 * watch **1 to 3 minutes video** tutorials that will support you through each step;
+
+
 
 * find quick technical suggestions in the **troubleshooting table**.
 
@@ -31,21 +35,21 @@ Store and share.
 
  * **Service access**
  
- * **Login and authentication** (added MFA)
+ * **Login and authentication** (depending on MFA)
    
  * **Introduction to the User Interface** ( UI not available until 16 of March)
    
  * **Sensitive data encryption and upload (less than 1 GB) - User Interface** ( UI not available until 16 of March)
  
- * **Sensitive data encryption and upload (less than 100 GB)- Uuser Iinterface**
+ * **Sensitive data encryption and upload (less than 100 GB)- User Iinterface**
  
- * **Sensitive data encryption and upload - Command Line Interface**
+ * **Sensitive data encryption and upload - Command Line Interface** Advanced
        
  * **Data encryption for data sharing (less than 1 GB) - User Interface** ( UI not available until 16 of March)
  
- * **Data encryption for data sharing (less then 100 GB) -  User Interface**
+ * **Data encryption for data sharing (less then 100 GB) -  User Interface** Advanced
  
- * [**Data encryption for data sharing - Commanf Line Interface**](./crypt4gh_client.md )
+ * [**Data encryption for data sharing - Commanf Line Interface**](./crypt4gh_client.md ) Advanced
  
  * **Download**
 
@@ -71,7 +75,7 @@ Analyse and compute.
 
   * [**Pre-installed software**](./pre-installed_software.md)
   
-  * [**Utilizing singularity containers in SD Desktop**](sd-desktop-singularity.md)
+  * [**Utilizing singularity containers in SD Desktop**](sd-desktop-singularity.md) Advanced
 
   * **Data export** (dependent on download swapping available from 16 of March)
 
