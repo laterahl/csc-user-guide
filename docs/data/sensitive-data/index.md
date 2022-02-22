@@ -35,7 +35,7 @@ Store and share.
 
  * **Service access**
  
- * **Login and authentication** (depending on MFA)
+ * **Login and authentication** 
    
  * **Introduction to the User Interface** ( UI not available until 16 of March)
    
@@ -65,7 +65,7 @@ Analyse and compute.
   
   * **Overview**
  
-  * **Service access and authentication**
+  * **Service access and authentication** (dependent on MFA UI)
 
   * **Introdutcion to the user inetrface**
 
