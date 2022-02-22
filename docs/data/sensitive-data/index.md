@@ -62,7 +62,7 @@ Analyse and compute.
 
   * [**Before you start**](sd_desktop.md#before-you-start)
   
-  * [**Overview / Getting started**](sd_desktop.md#overview)
+  * [**Overview / Getting started**](sd_desktop.md#overview)  
  
   * **Service access and authentication** (dependent on MFA UI)
 
