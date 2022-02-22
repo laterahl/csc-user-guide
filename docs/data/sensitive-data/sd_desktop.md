@@ -2,21 +2,27 @@
 # SD Desktop (Sensitive Data Desktop)
 
 
-SD Desktop is a web-user interfaces that allows you to manage (start, use, delete) a private computing enviroment from your browser, wihtout any previous knoledge in cloud computing. 
+SD Desktop is a web-user interface that allows you to manage (start, use, delete) a private computing environment from your browser without any previous knowledge in cloud computing. SD Desktop is designed to process sensitive data and to provide a secure workspace for collaborative research projects. 
 
 **Key features**:
 
-* accessible with a CSC account and a CSC project;
+* accessible from any operating system (Mac, Linux or Windows) via web-browser (e.g. Google Chrome, Firefox) from the public internet (without the need of installing client or using a);
 
-* accessbiel from any opearting system (Mac, linux or Windows) via web-browser (e.e. Google crhome, firefox) from the public internet (wihtout the need of installing client or using a);
+* requires a CSC account and a CSC project;
 
-* after login to SD Desktop, user can start a pre- built computing enviroment (Linux OS) on demand;
+* after login to SD Desktop, the user can start a pre-built computing environment (Linux OS) on demand; available options offer the capability of doing simple statistical analysis to machine learning;
 
-* available options offer the capability of doing simple statistical analysis to machien leaning;
+* limited set of pre-installed software (open source). Additional customization possible writing at servicedesk@csc.fi (subject: Sensitive data);
 
-* limited set of pre-istalled sfotware (open source). Addittional customization possible contacting support;
+* process any data format: text files, images, audio files, video, and genetic data;
 
-*  secure workspace, managed data export.
+* secure and isolated workspace; managed data export;
+
+* process a large amount of data stored encrypted in SD Connect via data streaming;
+
+* copy and edit files imported to SD Desktop via SD Connect (default disk space 280 GB, if additional space required contact servicedesk@csc.fi (subject: Sensitive data).
+
+* re-use sensitive data published under managed access via SD Apply. 
 
 
 
