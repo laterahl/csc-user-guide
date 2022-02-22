@@ -2,6 +2,25 @@
 # SD Desktop (Sensitive Data Desktop)
 
 
+SD Desktop is a web-user interfaces that allows you to manage (start, use, delete) a private computing enviroment from your browser, wihtout any previous knoledge in cloud computing. 
+
+**Key features**:
+
+* accessible with a CSC account and a CSC project;
+
+* accessbiel from any opearting system (Mac, linux or Windows) via web-browser (e.e. Google crhome, firefox) from the public internet (wihtout the need of installing client or using a);
+
+* after login to SD Desktop, user can start a pre- built computing enviroment (Linux OS) on demand;
+
+* available options offer the capability of doing simple statistical analysis to machien leaning;
+
+* limited set of pre-istalled sfotware (open source). Addittional customization possible contacting support;
+
+*  secure workspace, managed data export.
+
+
+
+
 ## Before you start
 
 * Independently of the login method used, you need a **CSC username and password to import data** into your Desktop computing environment. If you don't remember it, check how to reset it at [Account: How to change password](../../accounts/how-to-change-password.md)
@@ -12,6 +31,18 @@
 * It is the project manager's or group leader's responsibility to review frequently the list of members belonging to a project in MyCSC and verify who can access the data present in the project using SD Desktop or SD Connect. Remove the project members that do not need to have access to the data when their contribution is no longer needed.  
 
 * SD Connect and SD Desktop have not yet been security audited. Because of that, users may not process any personal data granted for the purposes of the Act on the Secondary Use of Health and Social Data (552/2019) by Findata.
+
+
+
+
+## Overview
+
+
+
+
+
+
+
 
 
 ## Login 
