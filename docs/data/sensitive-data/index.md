@@ -14,7 +14,6 @@ Below you can:
 * find quick technical suggestions in the **troubleshooting table**.
 
 
-
 For general information, see:
 [Sensitive Data services webpage](https://research.csc.fi/sensitive-data-services-for-research), general [FAQs](../sensitive-data/faq_index.md), services descriptions in [CSC service catalog](https://research.csc.fi/service-catalog).
 
@@ -78,7 +77,7 @@ Analyse and compute.
 
   * **Deleting a Desktop**
   
-   * **Troubleshooting**
+  * **Troubleshooting**
   
   
 
