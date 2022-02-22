@@ -9,7 +9,7 @@ Below you can:
 
 * follow **simplified, step-by-step** instructions on how to access and set up the services;
 
-No previous knoledge is required. Specific paraghraph are marekd as *advanced* is techical and coding skills are required. 
+No previous knoledge is required. Specific paraghraphs are marekd as *advanced* if techical and coding skills are required. 
 
 * watch **1 to 3 minutes video** tutorials that will support you through each step;
 
