@@ -4,7 +4,7 @@
 
 SD Desktop is a web-user interface that allows you to manage (start, use, delete) a private computing environment from your browser without any previous knowledge in cloud computing. SD Desktop is designed to process sensitive data and to provide a secure workspace for collaborative research projects. 
 
-**Key features**:
+## Key features:
 
 * accessible from any operating system (Mac, Linux or Windows) via web-browser (e.g. Google Chrome, Firefox) from the public internet (without the need of installing client or using a);
 
