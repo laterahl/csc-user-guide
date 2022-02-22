@@ -31,7 +31,7 @@ Store and share.
 
  * **Service access**
  
- * **Login and authentication**
+ * **Login and authentication** (added MFA)
    
  * **Introduction to the User Interface** ( UI not available until 16 of March)
    
