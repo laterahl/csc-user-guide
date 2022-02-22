@@ -33,15 +33,15 @@ Store and share.
  
  * **Login and authentication**
    
- * **Introduction to the User Interface**
+ * **Introduction to the User Interface** ( UI not available until 16 of March)
    
- * **Sensitive data encryption and upload (less than 1 GB) - User Interface**
+ * **Sensitive data encryption and upload (less than 1 GB) - User Interface** ( UI not available until 16 of March)
  
  * **Sensitive data encryption and upload (less than 100 GB)- Uuser Iinterface**
  
  * **Sensitive data encryption and upload - Command Line Interface**
        
- * **Data encryption for data sharing (less than 1 GB) - User Interface**
+ * **Data encryption for data sharing (less than 1 GB) - User Interface** ( UI not available until 16 of March)
  
  * **Data encryption for data sharing (less then 100 GB) -  User Interface**
  
@@ -73,9 +73,9 @@ Analyse and compute.
   
   * [**Utilizing singularity containers in SD Desktop**](sd-desktop-singularity.md)
 
-  * **Data export**
+  * **Data export** (dependent on download swapping available from 16 of March)
 
-  * **Deleting a Desktop**
+  * **Deleting a Desktop** 
   
   * **Troubleshooting**
   
