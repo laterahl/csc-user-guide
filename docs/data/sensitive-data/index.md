@@ -58,11 +58,11 @@ Store and share.
 ## [Sensitive Data Desktop](./sd_desktop.md)
 Analyse and compute.
 
-  * [**Key features**](sensitive-data/sd_desktop.md#key-features)
+  * [**Key features**](sd_desktop.md#key-features)
 
-  * [**Before you start**](sensitive-data/sd_desktop.md#before-you-start)
+  * [**Before you start**](sd_desktop.md#before-you-start)
   
-  * [**Overview**](sensitive-data/sd_desktop.md#overview)
+  * [**Overview**](sd_desktop.md#overview)
  
   * **Service access and authentication** (dependent on MFA UI)
 
