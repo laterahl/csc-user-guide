@@ -74,10 +74,8 @@ using any modern web browser. After login, verify your identity by entering the 
 
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595830-ab5fdb80-d071-11eb-8eee-d90db85aa7ad.png">
 
-[![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
-[![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
-[![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
-[![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
+[![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png) [![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
+[![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png) [![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
 
 
 
