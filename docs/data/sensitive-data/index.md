@@ -68,17 +68,17 @@ Analyse and compute.
   
   * [**Authentication**](sd_desktop.md#login) (dependent on MFA UI)
 
-  * **How to set up a private Desktop** 
+  * **Setting up a private Desktop** 
 
-  * **How to work with Desktop**
+  * **Working with Desktop**
 
-                     [**Available software**](./pre-installed_software.md)
+  * [**Available software on SD Desktop**](./pre-installed_software.md)
   
-                     [**Software customization**](sd-desktop-singularity.md) Advanced
+  * [**Software customization**](sd-desktop-singularity.md) Advanced
 
   * **Data export** (dependent on download swapping available from 16 of March)
 
-  * **Deleting a Desktop** 
+  * **Deleting a private Desktop** 
   
   * **Troubleshooting**
   
