@@ -47,7 +47,7 @@ SD Desktop is a web-user interface that allows you to manage (start, use, delete
 ![SD Desktop](https://user-images.githubusercontent.com/83574067/155133488-ab99aa45-cff8-4531-9542-d34ae944fc58.png)
 
 
-## Services access 
+## Service access 
 
 
 
