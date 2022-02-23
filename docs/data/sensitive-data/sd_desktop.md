@@ -85,7 +85,6 @@ Login to SD Desktop is possible with user identity federation systems (Haka, Vir
 <img width="960" alt="sd-desktop-0" src="https://user-images.githubusercontent.com/83574067/122118478-bbd54380-ce30-11eb-95cc-589e6cb68a84.png">
 
 
-[![Service-access](images/desktop/mycsc-small.png)](images/desktop/mycsc-big.png)
 
 ## Launching a private  Desktop
   
