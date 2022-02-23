@@ -2,16 +2,16 @@
 # SD Desktop (Sensitive Data Desktop)
 
 
-SD Desktop is a web-user interface that allows you to manage (start, use, delete) a private computing environment (here called private Desktop) from your web-browser. No  previous knowledge in cloud computing is required. SD Desktop is designed to process sensitive data and to provide a secure workspace for collaborative research projects. 
+SD Desktop is a web-user interface that allows you to manage (start, use, delete) a private computing environment (here called private Desktop) from your web browser. No previous knowledge of cloud computing is required. SD Desktop is designed to process sensitive data and provide a secure workspace for collaborative research projects. 
 
 ## Key features
 
 
-* **Accessible from any operating system (Mac, Linux or Windows)** via web-browser (e.g. Google Chrome, Firefox) **from the public internet** (without the need of installing client or using a);
+* **Accessible from any operating system (Mac, Linux or Windows)** via web-browser (e.g., Google Chrome, Firefox) **from the public internet** (without the need of installing client or using a);
 
-* aervice access requires a CSC account and a CSC project;
+* service access requires a CSC account and a CSC project;
 
-* after login to SD Desktop, the user can **start a pre-built computing environment (Linux OS)**, on demand; available options offer the capability of doing **simple statistical analysis to machine learning**;
+* after login to SD Desktop, the user can **start a pre-built computing environment (Linux OS)**, on-demand; available options offer the capability of doing **simple statistical analysis to machine learning**;
 
 * **limited set of pre-installed software (open source)**. Additional **customization** possible writing at servicedesk@csc.fi (subject: Sensitive data);
 
@@ -33,9 +33,9 @@ SD Desktop is a web-user interface that allows you to manage (start, use, delete
 * Independently of the login method used, you need a **CSC username and password to import data** into your Desktop computing environment. If you don't remember it, check how to reset it at [Account: How to change password](../../accounts/how-to-change-password.md)
 
 
-* **All the project members belonging to a specific CSC project can access the same computing environment in SD Desktop.** Currently, it is possible to **launch 3 Desktops (or workspaces) for each CSC project**. Each CSC project has its own virtual private computing environment and **each computing environment is isolated from other CSC projects or CSC accounts, unless you authorize it**.
+* **All the members belonging to a specific CSC project can access the same computing environment in SD Desktop.** Currently, it is possible to **launch 3 Desktops (or workspaces) for each CSC project**. Each CSC project has its own private Desktop, and **each Desktop is isolated from other CSC projects or CSC accounts unless you authorize it**.
 
-* It is the project manager's or group leader's responsibility to review frequently the list of members belonging to a project in MyCSC and verify who can access the data present in the project using SD Desktop or SD Connect. Remove the project members that do not need to have access to the data when their contribution is no longer needed.  
+* The project manager's or group leader's responsibility is to frequently review the list of members belonging to a project in MyCSC and verify who can access the data present in the project using SD Desktop or SD Connect. Remove the project members who do not need access to the data when their contribution is no longer needed.  
 
 * SD Connect and SD Desktop have not yet been security audited. Because of that, users may not process any personal data granted for the purposes of the Act on the Secondary Use of Health and Social Data (552/2019) by Findata.
 
@@ -47,7 +47,7 @@ SD Desktop is a web-user interface that allows you to manage (start, use, delete
 ![SD Desktop](https://user-images.githubusercontent.com/83574067/155133488-ab99aa45-cff8-4531-9542-d34ae944fc58.png)
 
 
-## Login 
+## Services access and authentication
 
 
 <iframe width="280" height="155"srcdoc="https://www.youtube.com/embed/VebHTUonOSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -57,23 +57,27 @@ SD Desktop is a web-user interface that allows you to manage (start, use, delete
 
 To access SD Desktop go to [MyCSC](https://my.csc.fi) and:
 
-* set up [**a CSC account**](../../accounts/how-to-create-new-user-account.md);
-* set up [**a CSC project**](../../accounts/how-to-create-new-project.md) or [join a project](../../accounts/how-to-add-members-to-project.md);
-* add [**service access to Allas and SD Desktop**](../../accounts/how-to-add-service-access-for-project.md) (CSC cloud storage solution);
-* fill in the [**description of data processing activities**](../../accounts/when-your-project-handles-personal-data.md) form;
+* set up [a CSC account](../../accounts/how-to-create-new-user-account.md);
+* set up  or join [a CSC project](../../accounts/how-to-create-new-project.md) or [join a project](../../accounts/how-to-add-members-to-project.md);
+* fill in the [description of data processing activities](../../accounts/when-your-project-handles-personal-data.md) form;
 * apply for additional [billing units](../../accounts/how-to-apply-for-billing-units.md) or [disk quota](../../accounts/how-to-increase-disk-quotas.md), if needed.
 
+Under MyProject>Project Name>Services:
+
+* add [service access to Allas and SD Desktop](../../accounts/how-to-add-service-access-for-project.md) (CSC cloud storage solution);
+
+Under MyProfile> Multifactor authentication>:
+
+* enable the additional security verification scanning the QR code with a specific application (e.g. Google Authenticator);
+
+For specific guidance regarding these steps check the [Accounts](../../accounts/index.md) paragraph at the beginning of this user guide.
 
 
 
 
+Login to SD Desktop is possible with user identity federation systems (Haka, Virtu and [Elixir Login](https://elixir-europe.org/register) or with  CSC Login at
 
-
-Login to SD Desktop is possible with user identity federation systems (Haka, Virtu and [Elixir ID](https://elixir-europe.org/register) or with a CSC account at
-
-[https://sd-desktop.csc.fi](https://sd-desktop.csc.fi)
-
-using any modern web browser.
+[https://sd-desktop.csc.fi](https://sd-desktop.csc.fi) using any modern web browser. After login, verify your identity by entering the verification code provided via the mobile application. 
 
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595830-ab5fdb80-d071-11eb-8eee-d90db85aa7ad.png">
 
