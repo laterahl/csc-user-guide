@@ -15,13 +15,13 @@ SD Desktop is a web-user interface that allows you to manage (start, use, delete
 
 * **limited set of pre-installed software (open source)**. Additional **customization** possible writing at servicedesk@csc.fi (subject: Sensitive data);
 
-* process any type of data: **text files, images, audio files, video, and genetic data**;
+* process any type of data: text files, images, audio files, video, and genetic data;
 
 * secure and **isolated workspace**; managed data export;
 
-* **process a large amount of data** stored encrypted in **SD Connect** via data streaming;
+* **process a large amount of data** stored encrypted in SD Connect via data streaming;
 
-* **copy and edit files** imported to SD Desktop via SD Connect (default disk space 280 GB,**if additional space required** contact servicedesk@csc.fi (subject: Sensitive data).
+* **copy and edit files** imported to SD Desktop via SD Connect (default disk space 280 GB, if additional space required contact servicedesk@csc.fi (subject: Sensitive data).
 
 * **re-use** sensitive data published under managed access via SD Apply. 
 
@@ -30,7 +30,7 @@ SD Desktop is a web-user interface that allows you to manage (start, use, delete
 
 ## Before you start
 
-* Independently of the login method used, you need a **CSC username and password to import data** into your Desktop computing environment. If you don't remember it, check how to reset it at [Account: How to change password](../../accounts/how-to-change-password.md)
+* Independently of the login method used, you need a **CSC username and password to import data* * into your Desktop computing environment. If you don't remember it, check how to reset it at [Account: How to change password](../../accounts/how-to-change-password.md)
 
 
 * **All the members belonging to a specific CSC project can access the same computing environment in SD Desktop.** Currently, it is possible to **launch 3 Desktops (or workspaces) for each CSC project**. Each CSC project has its own private Desktop, and **each Desktop is isolated from other CSC projects or CSC accounts unless you authorize it**.
@@ -47,12 +47,8 @@ SD Desktop is a web-user interface that allows you to manage (start, use, delete
 ![SD Desktop](https://user-images.githubusercontent.com/83574067/155133488-ab99aa45-cff8-4531-9542-d34ae944fc58.png)
 
 
-## Services access and authentication
+## Services access 
 
-
-<iframe width="280" height="155"srcdoc="https://www.youtube.com/embed/VebHTUonOSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595830-ab5fdb80-d071-11eb-8eee-d90db85aa7ad.png">
 
 
 To access SD Desktop go to [MyCSC](https://my.csc.fi) and:
@@ -66,17 +62,22 @@ To access SD Desktop go to [MyCSC](https://my.csc.fi) and:
 
 For specific guidance regarding these steps check the [Accounts](../../accounts/index.md) paragraph at the beginning of this user guide.
 
+
+
+## Login
+
+<iframe width="280" height="155"srcdoc="https://www.youtube.com/embed/VebHTUonOSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595830-ab5fdb80-d071-11eb-8eee-d90db85aa7ad.png">
+
 Login to SD Desktop is possible with user identity federation systems (Haka, Virtu and [Elixir Login](https://elixir-europe.org/register) or with  CSC Login at
 
-[https://sd-desktop.csc.fi](https://sd-desktop.csc.fi)
+[**https://sd-desktop.csc.fi**](https://sd-desktop.csc.fi)
 
 using any modern web browser. After login, verify your identity by entering the verification code provided via the mobile application. 
 
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595830-ab5fdb80-d071-11eb-8eee-d90db85aa7ad.png">
 
 [![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png) [![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
-[![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png) [![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
-
 
 
 
