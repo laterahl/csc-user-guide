@@ -58,7 +58,7 @@ SD Desktop is a web-user interface that allows you to manage (start, use, delete
 To access SD Desktop go to [MyCSC](https://my.csc.fi) and:
 
 * set up [a CSC account](../../accounts/how-to-create-new-user-account.md);
-* set up  or join [a CSC project](../../accounts/how-to-create-new-project.md) or [join a project](../../accounts/how-to-add-members-to-project.md);
+* [join](../../accounts/how-to-add-members-to-project.md) or set up [a CSC project](../../accounts/how-to-create-new-project.md);
 * fill in the [description of data processing activities](../../accounts/when-your-project-handles-personal-data.md) form;
 * apply for additional [billing units](../../accounts/how-to-apply-for-billing-units.md) or [disk quota](../../accounts/how-to-increase-disk-quotas.md), if needed.
 * add [service access to Allas and SD Desktop](../../accounts/how-to-add-service-access-for-project.md) (CSC cloud storage solution);
