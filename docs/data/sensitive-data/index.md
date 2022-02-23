@@ -66,15 +66,15 @@ Analyse and compute.
  
   * [**Service access**](sd_desktop.md#service-access)  
   
-  * [**Authentication**](sd_desktop.md#login)(dependent on MFA UI)
+  * [**Authentication**](sd_desktop.md#login) (dependent on MFA UI)
 
   * **How to set up a private Desktop** 
 
   * **How to work with Desktop**
 
-  * [**Available software**](./pre-installed_software.md)
+                     [**Available software**](./pre-installed_software.md)
   
-  * [**Software customization**](sd-desktop-singularity.md) Advanced
+                     [**Software customization**](sd-desktop-singularity.md) Advanced
 
   * **Data export** (dependent on download swapping available from 16 of March)
 
