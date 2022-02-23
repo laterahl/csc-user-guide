@@ -72,16 +72,13 @@ Login to SD Desktop is possible with user identity federation systems (Haka, Vir
 
 using any modern web browser. After login, verify your identity by entering the verification code provided via the mobile application. 
 
-
-
-[![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
-[![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
-[![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
-[![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
-
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595830-ab5fdb80-d071-11eb-8eee-d90db85aa7ad.png">
 
-<img width="960" alt="sd-desktop-0" src="https://user-images.githubusercontent.com/83574067/122118478-bbd54380-ce30-11eb-95cc-589e6cb68a84.png">
+[![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
+[![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
+[![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
+[![Service-access](images/desktop/try-smaller2.png)](images/desktop/try-smaller.png)
+
 
 
 
