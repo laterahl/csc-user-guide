@@ -2,27 +2,28 @@
 # SD Desktop (Sensitive Data Desktop)
 
 
-SD Desktop is a web-user interface that allows you to manage (start, use, delete) a private computing environment from your browser without any previous knowledge in cloud computing. SD Desktop is designed to process sensitive data and to provide a secure workspace for collaborative research projects. 
+SD Desktop is a web-user interface that allows you to manage (start, use, delete) a private computing environment (called Desktop) from your web-browser. No  previous knowledge in cloud computing is required. SD Desktop is designed to process sensitive data and to provide a secure workspace for collaborative research projects. 
 
-## Key features:
+## Key features
 
-* accessible from any operating system (Mac, Linux or Windows) via web-browser (e.g. Google Chrome, Firefox) from the public internet (without the need of installing client or using a);
 
-* requires a CSC account and a CSC project;
+* **Accessible from any operating system (Mac, Linux or Windows)** via web-browser (e.g. Google Chrome, Firefox) **from the public internet** (without the need of installing client or using a);
 
-* after login to SD Desktop, the user can start a pre-built computing environment (Linux OS) on demand; available options offer the capability of doing simple statistical analysis to machine learning;
+* aervice access requires a CSC account and a CSC project;
 
-* limited set of pre-installed software (open source). Additional customization possible writing at servicedesk@csc.fi (subject: Sensitive data);
+* after login to SD Desktop, the user can **start a pre-built computing environment (Linux OS)**, on demand; available options offer the capability of doing **simple statistical analysis to machine learning**;
 
-* process any data format: text files, images, audio files, video, and genetic data;
+* **limited set of pre-installed software (open source)**. Additional **customization** possible writing at servicedesk@csc.fi (subject: Sensitive data);
 
-* secure and isolated workspace; managed data export;
+* process any type of data: **text files, images, audio files, video, and genetic data**;
 
-* process a large amount of data stored encrypted in SD Connect via data streaming;
+* secure and **isolated workspace**; managed data export;
 
-* copy and edit files imported to SD Desktop via SD Connect (default disk space 280 GB, if additional space required contact servicedesk@csc.fi (subject: Sensitive data).
+* **process a large amount of data** stored encrypted in **SD Connect** via data streaming;
 
-* re-use sensitive data published under managed access via SD Apply. 
+* **copy and edit files** imported to SD Desktop via SD Connect (default disk space 280 GB,**if additional space required** contact servicedesk@csc.fi (subject: Sensitive data).
+
+* **re-use** sensitive data published under managed access via SD Apply. 
 
 
 
