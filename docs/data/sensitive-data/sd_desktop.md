@@ -73,7 +73,7 @@ Under MyProfile> Multifactor authentication>:
 For specific guidance regarding these steps check the [Accounts](../../accounts/index.md) paragraph at the beginning of this user guide.
 
 
-[![Service-access](images/desktop/mycsc-small.png)](images/desktop/mycsc-big.png)
+[![Service-access](images/desktop/try-small.png)](images/desktop/try-large.png)
 
 
 Login to SD Desktop is possible with user identity federation systems (Haka, Virtu and [Elixir Login](https://elixir-europe.org/register) or with  CSC Login at
