@@ -19,7 +19,7 @@ For general information, see:
 
 
 Note!!!
-    **If you can not find what you are looking for**, don't hesitate to contact us at servicedesk@csc.fi (subject: Sensitive Data). Our team is here to help.
+       **If you can not find what you are looking for**, don't hesitate to contact us at servicedesk@csc.fi (subject: Sensitive Data). Our team is here to help.
 
 
   
@@ -66,15 +66,15 @@ Analyse and compute.
  
   * [**Service access**](sd_desktop.md#service-access)  
   
-  * [Authentication](sd_desktop.md#authentication)(dependent on MFA UI)
+  * [**Authentication**](sd_desktop.md#login)(dependent on MFA UI)
 
   * **How to set up a private Desktop** 
 
   * **How to work with Desktop**
 
-  * [**Pre-installed software**](./pre-installed_software.md)
+  * [**Available software**](./pre-installed_software.md)
   
-  * [**Utilizing singularity containers in SD Desktop**](sd-desktop-singularity.md) Advanced
+  * [**Software customization**](sd-desktop-singularity.md) Advanced
 
   * **Data export** (dependent on download swapping available from 16 of March)
 
@@ -87,7 +87,7 @@ Analyse and compute.
   
   
 ## [Finnish Federated EGA](./federatedega.md)
-Publish genetic data under controlled access.
+Publish genetic data under controlled access. (Pilot pahse).
  
 *  **Data submission process: Overview**
 
@@ -114,7 +114,7 @@ Publish genetic data under controlled access.
   
   
 ## [Sensitive Data Apply](./sd-apply.md)
-Apply for re-use.
+Apply for re-use. (Pilot phase)
   
   **Data access for applicants: Overview**
   
