@@ -62,15 +62,15 @@ Analyse and compute.
 
   * [**Before you start**](sd_desktop.md#before-you-start)
   
-  * [**Overview / Getting started**](sd_desktop.md#overview)  
+  * [**Overview**](sd_desktop.md#overview)  
  
-  * **Service access and authentication** (dependent on MFA UI)
+  * [**Service access**](sd_desktop.md#service-access)  
+  
+  * [Authentication](sd_desktop.md#authentication)(dependent on MFA UI)
 
-  * **Introdutcion to the user inetrface**
+  * **How to set up a private Desktop** 
 
-  * **Setting up a private workspace** 
-
-  * **Working with SD Desktop**
+  * **How to work with Desktop**
 
   * [**Pre-installed software**](./pre-installed_software.md)
   
