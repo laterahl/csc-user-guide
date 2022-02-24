@@ -69,7 +69,7 @@ To access SD Desktop go to [MyCSC](https://my.csc.fi) and:
 For specific guidance regarding these steps check the [Accounts](../../accounts/index.md) paragraph at the beginning of this user guide.
 
 
-[![Service-access](images/desktop/service-access-small.png)](images/desktop/service-access-large.png) 
+[![Service-access](images/desktop/service-access-small.png)](images/desktop/service-access.png) 
 
 ## Login
 
