@@ -82,7 +82,7 @@ using any modern web browser.
 
 After login, **verify your identity** by entering the verification code provided via the mobile application. 
 
-For specific guidance regarding the verification step check the [Accounts](../../accounts/index.md) paragraph at the beginning of this user guide.
+For specific guidance regarding the verification step, check the [Accounts](../../accounts/index.md) paragraph at the beginning of this user guide.
 
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595830-ab5fdb80-d071-11eb-8eee-d90db85aa7ad.png">
 
@@ -93,12 +93,12 @@ For specific guidance regarding the verification step check the [Accounts](../..
   
 <iframe width="280" height="155"srcdoc="https://www.youtube.com/embed/VebHTUonOSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Once you have access to SD Desktop, you can use the service to turn on your virtual computer (here called Desktop), choosing bwteen four pre-built options. This operation can be carried out with a few clicks and does nto require any techincal knoledge. The services  will  start your virtual Desktop (or in techincal terms: luanch a virutal machine) and create a secure connection between CSC and your browser. The process is completely automated and might take **up to 30 minutes**. 
+Once you have access to SD Desktop, you can use the service to turn on your virtual computer (here called Desktop), choosing between four pre-built options. This operation can be carried out with a few clicks and does not require any technical knowledge. Next, the services will launch your virtual Desktop (or, in technical terms: launch a virtual machine) and create a secure connection between CSC and your browser. The process is completely automated and might take **up to 30 minutes**. 
 
-After starting your  Desktop, the virtual computer will always be directly available for use, every time you login to the service. Morever, the running Desktop will consume billing unites (or resources) from your CCS project, ultil the Desktop is deleted. As each CSC project has a defoult amout of billing units, we will give an example of consumption for each option. 
+After launch, your virtual Desktop will always be directly available for use every time you log in to the service. Moreover, the running Desktop will consume billing units (or resources) from your CSC project until the Desktop is deleted. As each CSC project has a default amount of billing units, we will give an example of consumption for each option. 
 
-Each Desktop is CSC project specific. Thus, if you add colleagues/collaborators as project members in the same CSC project, they will be able to access the same virtual Desktop. All the Desktop are provided with the same software (pre-siantlled  and managed by CSC). The complete and updated list can be found in the following paragraph: [Pre-installed list of software](./pre-installed_software.md).
-You can find more informations on how to use y
+Each Desktop is CSC project-specific. Thus, if you add colleagues/collaborators as project members in the same CSC project, they will access the same virtual Desktop. Furthermore, all the Desktop are provided with the same software (pre-installed and managed by CSC). The complete and updated list can be found in the following paragraph: [Pre-installed list of software](./pre-installed_software.md).
+
 
 
 
@@ -108,9 +108,9 @@ To start your Desktop, in Homepage, click on **Go To SD Desktop Management** pag
 
 * **choose the operating system** (currently the only possible operating system  is Linux CentOS 7)
   
-* optionally, you can  assigne a specific name the Desktop 
+* optionally, you can  assign a specific name the Desktop 
   
-* optionally, you can extend the disk space (or storage capability of your computer) clicking on **add an external disk**. You can add up to 200 GB. The default disk space is 80 GB. Note: you can extend the disk space only before launching the Desktop. Additional disk space can be required writing at servicedesk@csc.fi (subject: Sensitive data);
+* optionally, you can extend your Desktop's disk space (or storage capability) by clicking on **add an external disk**. You can add up to 200 GB. The default disk space is 80 GB. Note: you can extend the disk space only before launching the Desktop. Additional disk space can be required writing at servicedesk@csc.fi (subject: Sensitive data);
 
 * **select** the preferred computing environment (based on your needs) and click on **Launch Desktop**. The operation can take up to **up to 30 minutes**. If you try to access the virtual Desktop and see a black screen, come back later. 
 
@@ -123,38 +123,37 @@ To start your Desktop, in Homepage, click on **Go To SD Desktop Management** pag
 
 
 
-In SD Desktop you can choose between **four different pre-built options **:  
+In SD Desktop, you can choose between **four different pre-built options **:  
 
-*  **Light computation**: this optin is ideal to test the services (for example: test how to start a Desktop, chek out how it looks, try to access data stored in SD Connect). You can compare this Destkop to a very simple laptop, which probably freezez when you open too many software or more then 3 colleagus access it at the same time. For this reason, we advise you to start this type of Desktop only for testing purposes and delete when the testing is completed.
+*  **Light computation**: this option is ideal for testing the services (for example, test how to start a Desktop, check out how it looks, try to access data stored in SD Connect). You can compare this Desktop to a very simple laptop, which probably freezes when you open too many software or more than three colleagues connect to it simultaneously. For this reason, we advise you to start this type of Desktop only for testing purposes and delete it when the testing is completed.
 Techincal specifications: Core:3; memory 4 GiB; Root: 80 GB; Correspondent Pouta Flavour: standar.medium; Billing Units: 1.3 units/h
 
-* **Small computation**: this optin is ideal to analyze sensitive data using office stofware (for example: similarly to simple statistical analysis with Excel, whatch videos, listen to audio files, work on  text files). You can compare this Desktop to your laptop.
+* **Small computation**: this option is ideal for analyzing sensitive data using office software (for example: similar to simple statistical analysis with Excel, watching videos, listening to audio files, working on text files). You can compare this Desktop to your laptop.
 Techincal specifications: Core:6; memory 15 GiB; Root: 80 GB; Correspondent Pouta Flavour: standar.xlarge; Billing Units: 5.2 units/h
 
-* **Medium computation**: this optin is ideal to run complex statistical  or genome analysis (for example: use the command line to run specific scripts). You can compare this Desktop to a powerful laptop provided by your IT-unit.
+* **Medium computation**: this option is ideal for running complex statistical or genome analysis (for example: use the command line to run specific scripts). You can compare this Desktop to a powerful laptop provided by your IT unit.
 Techincal specifications: Core:8; memory 30 GiB; Root: 80 GB; Correspondent Pouta Flavour: standar.xxlarge; Billing Units: 10.4 units/h
 
-* **Heavy computation**: this option is ideal to run non-interactive programmatic computation (for example: machine learning). 
-Techincal computation: Core:8; memory 168 GiB; Root: 80 GB; Correspondent Pouta Flavour: hpc4.4core; Billing Units: 78 units/h
+* **Heavy computation**: this option is ideal for running non-interactive programmatic analysis (for example machine learning). 
+Techincal specifications: Core:8; memory 168 GiB; Root: 80 GB; Correspondent Pouta Flavour: hpc4.4core; Billing Units: 78 units/h
 
-We are not yet providing GPUs or virtual computers with Windows or Ubuntu operating system. However, you can find our webage to find our more on the the future development of the services.
-If you are not sure what is the best option for your needs/research, contact us at servicedesk@csc.fi (email subject: SD Desktop). Do not choose the Heavy computation option for simple computing or analysis, as it consumes a large amount of resources. We are not yet providing GPUs or Wisnows, Ubuntu operating system. However, you can find our webage to find our more on the the future development of the services.
+We are not yet providing GPUs or virtual computers with Windows or Ubuntu operating systems. However, you can find our webpage to find out more on the future development of the services.
+
+If you are unsure what is the best option for your needs/research, contact us at servicedesk@csc.fi (email subject: SD Desktop). 
+
+Please do not choose the Heavy computation option for simple computing or analysis, as it consumes many resources. Unfortunately, we are not yet providing GPUs or Windows, Ubuntu operating systems. However, you can find more information on the future development of the services on our webpage.
 
 
 If the launch is successful, when you return to SD Desktop **Homepage**,  you will be able to access your new virtual Desktop in:
 
-* **Recent connections**, clicking on the image of your Desktop (visible only if you recetly accessed the virtual Desktop)
+* **Recent connections**, clicking on the image of your Desktop (visible only if you recently accessed the virtual Desktop)
 
-* **All connections** if you click on + you can see all the connections associated with each project (e.g. project_NNNNN_NNNN). If you click on the connection ID you will also be able to access your virtual Desktop. 
+* **All connections** if you click on + you can see all the connections associated with each project (e.g. project_NNNNN_NNNN). If you click on the connection ID you will also access your virtual Desktop. 
 
 
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595541-4efcbc00-d071-11eb-9e34-ad96e414f506.png">
 ![SD-Desktop-Connection](https://user-images.githubusercontent.com/83574067/122604935-66db3c80-d07f-11eb-8364-df60b0e71699.png)
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595580-5b811480-d071-11eb-9b99-9dcad8b4ac17.png">
-
-
-
-
 
 
 
