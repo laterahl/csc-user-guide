@@ -93,11 +93,11 @@ For specific guidance regarding the verification step, check the [Accounts](../.
   
 <iframe width="280" height="155"srcdoc="https://www.youtube.com/embed/VebHTUonOSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Once you have access to SD Desktop, you can use the service to turn on your virtual computer (here called Desktop), choosing between four pre-built options. This operation can be carried out with a few clicks and does not require any technical knowledge. Next, the services will launch your virtual Desktop (or, in technical terms: launch a virtual machine) and create a secure connection between CSC and your browser. The process is completely automated and might take **up to 30 minutes**. 
+Once you have access to SD Desktop, you can use the service to launch your virtual computer (here called Desktop), choosing between four pre-built options. This operation can be carried out with a few clicks and does not require any technical knowledge. Next, the services will start your virtual Desktop (or, in technical terms: launch a virtual machine) and create a secure connection between CSC and your browser. The process is completely automated and might take **up to 30 minutes**. 
 
-After launch, your virtual Desktop will always be directly available for use every time you log in to the service. Moreover, the running Desktop will consume billing units (or resources) from your CSC project until the Desktop is deleted. As each CSC project has a default amount of billing units, we will give an example of consumption for each option. 
+After launch, your virtual Desktop will always be directly available for use every time you log in to the service. Moreover, the running Desktop will consume billing units (or resources) from your CSC project until the Desktop is deleted.As each CSC project has a default amount of billing units, we will give an example of consumption for each option. 
 
-Each Desktop is CSC project-specific. Thus, if you add colleagues/collaborators as project members in the same CSC project, they will access the same virtual Desktop. Furthermore, all the Desktop are provided with the same software (pre-installed and managed by CSC). The complete and updated list can be found in the following paragraph: [Pre-installed list of software](./pre-installed_software.md).
+Each Desktop is CSC project-specific. Thus, if you add colleagues/collaborators as project members in the same CSC project, they will able also able to connect to a virtual Desktop and access the same data stored in your project. Furthermore, all the Desktop are provided with the same software (pre-installed and managed by CSC). The complete and updated list can be found in the following paragraph: [Pre-installed list of software](./pre-installed_software.md).
 
 
 
@@ -126,22 +126,24 @@ To start your Desktop, in Homepage, click on **Go To SD Desktop Management** pag
 In SD Desktop, you can choose between **four different pre-built options **:  
 
 *  **Light computation**: this option is ideal for testing the services (for example, test how to start a Desktop, check out how it looks, try to access data stored in SD Connect). You can compare this Desktop to a very simple laptop, which probably freezes when you open too many software or more than three colleagues connect to it simultaneously. For this reason, we advise you to start this type of Desktop only for testing purposes and delete it when the testing is completed.
+
 Techincal specifications: Core:3; memory 4 GiB; Root: 80 GB; Correspondent Pouta Flavour: standar.medium; Billing Units: 1.3 units/h
 
 * **Small computation**: this option is ideal for analyzing sensitive data using office software (for example: similar to simple statistical analysis with Excel, watching videos, listening to audio files, working on text files). You can compare this Desktop to your laptop.
+
 Techincal specifications: Core:6; memory 15 GiB; Root: 80 GB; Correspondent Pouta Flavour: standar.xlarge; Billing Units: 5.2 units/h
 
 * **Medium computation**: this option is ideal for running complex statistical or genome analysis (for example: use the command line to run specific scripts). You can compare this Desktop to a powerful laptop provided by your IT unit.
+
 Techincal specifications: Core:8; memory 30 GiB; Root: 80 GB; Correspondent Pouta Flavour: standar.xxlarge; Billing Units: 10.4 units/h
 
 * **Heavy computation**: this option is ideal for running non-interactive programmatic analysis (for example machine learning). 
-Techincal specifications: Core:8; memory 168 GiB; Root: 80 GB; Correspondent Pouta Flavour: hpc4.4core; Billing Units: 78 units/h
 
-We are not yet providing GPUs or virtual computers with Windows or Ubuntu operating systems. However, you can find our webpage to find out more on the future development of the services.
+Techincal specifications: Core:8; memory 168 GiB; Root: 80 GB; Correspondent Pouta Flavour: hpc4.4core; Billing Units: 78 units/h
+Please do not choose the Heavy computation option for simple computing or analysis, as it consumes many resources. 
+
 
 If you are unsure what is the best option for your needs/research, contact us at servicedesk@csc.fi (email subject: SD Desktop). 
-
-Please do not choose the Heavy computation option for simple computing or analysis, as it consumes many resources. Unfortunately, we are not yet providing GPUs or Windows, Ubuntu operating systems. However, you can find more information on the future development of the services on our webpage.
 
 
 If the launch is successful, when you return to SD Desktop **Homepage**,  you will be able to access your new virtual Desktop in:
@@ -154,6 +156,10 @@ If the launch is successful, when you return to SD Desktop **Homepage**,  you wi
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595541-4efcbc00-d071-11eb-9e34-ad96e414f506.png">
 ![SD-Desktop-Connection](https://user-images.githubusercontent.com/83574067/122604935-66db3c80-d07f-11eb-8364-df60b0e71699.png)
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595580-5b811480-d071-11eb-9b99-9dcad8b4ac17.png">
+
+
+Unfortunately, we are not yet providing GPUs or Windows, Ubuntu operating systems. However, you can find more information on the future development of the services on our webpage.
+In teh next paragraph we will dicuss how to work with a private Destop, which software are pre-installed on it and how it is possible to customize your workspace. 
 
 
 
