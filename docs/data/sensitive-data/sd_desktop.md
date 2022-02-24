@@ -2,11 +2,11 @@
 # SD Desktop (Sensitive Data Desktop)
 
 
-SD Desktop is a web-user interface that allows you to manage (start, use, delete) a private computing environment (here called Desktop) from your web browser. No previous knowledge of cloud computing is required. SD Desktop is designed to process sensitive data and provide a secure workspace for collaborative research projects. 
+SD Desktop is a web-user interface that allows you to manage (start, use, delete) a virtual computer (here called Desktop) from your web browser. No previous knowledge of cloud computing is required. SD Desktop is designed to process sensitive data and provide a secure workspace for collaborative research projects. 
 In the following user guide you can learn how to:
 
 * apply for service access;
-* set up your Desktop;
+* set up your virtual Desktop;
 * analyze your data stored in SD Connect;
 * re-use published data stored under controlled access.
 
@@ -55,8 +55,6 @@ In the following user guide you can learn how to:
 
 ## Service access 
 
-
-
 To access SD Desktop go to [MyCSC](https://my.csc.fi) and:
 
 * set up [a CSC account](../../accounts/how-to-create-new-user-account.md);
@@ -95,63 +93,64 @@ For specific guidance regarding the verification step check the [Accounts](../..
   
 <iframe width="280" height="155"srcdoc="https://www.youtube.com/embed/VebHTUonOSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-  
-After launch, you can login into your Desktop from any modern internet browser. Each Desktop will be accessible all along the duration of your CSC project.
+Once you have access to SD Desktop, you can use the service to turn on your virtual computer ( here called Desktop), choosing bwteen four pre-built options. This operation can be carried out with a few clicks and does nto require any techincal knoledge. The services  will  start your virtual Desktop (or in techincal terms: luanch a virutal machine) and create a secure connection between CSC and your browser. The process is completely automated and might take **up to 30 minutes**. 
 
-Each Desktop is CSC project specific. Thus, if you add colleagues/collaborators as project members in the same CSC project, they will be able to access the same Desktop. To edit the same files or datasets, you need to save them in the same *shared folder*.
+After starting your  Desktop, the virtual computer will always be directly available for use, every time you login to the service. Morever, the running Desktop will consume billing unites (or resources) from your CCS project, ultil the Desktop is deleted. As each CSC project has a defoult amout of billing units, we will give an example of consumption for each option. 
 
-<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122592729-5b7f1580-d06d-11eb-8913-9219c864954b.png">
-![SD-Desktop-1final](https://user-images.githubusercontent.com/83574067/122592168-a0567c80-d06c-11eb-97f3-0c19675cd7e6.png)
-<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122592746-6174f680-d06d-11eb-8d9b-6315c9766b46.png">
+Each Desktop is CSC project specific. Thus, if you add colleagues/collaborators as project members in the same CSC project, they will be able to access the same virtual Desktop. All the Desktop are provided with the same software (pre-siantlled  and managed by CSC). The complete and updated list can be found in the following paragraph: [Pre-installed list of software](./pre-installed_software.md).
+You can find more informations on how to use y
 
 
-To launch your Desktop, in Homepage, click on **Go To Launching Page** :
+
+To start your Desktop, in Homepage, click on **Go To SD Desktop Management** page:
 
 * **select your CSC project**
 
-* **choose the operating system** (for beta versions, only possible operating system is Linux CentOS 7)
+* **choose the operating system** (currently the only possible operating system  is Linux CentOS 7)
   
-* optionally, you can name the Desktop (**update: 1 September 2021**).
+* optionally, you can  assigne a specific name the Desktop 
   
-* optionally, you can extend the disk space clicking on **add an external disk**. You can add up to 200 GB. The default disk space is 80 GB. Note: you can extend the disk space only before launching the Desktop (**update: 1 September 2021**).
+* optionally, you can extend the disk space (or storage capability of your computer) clicking on **add an external disk**. You can add up to 200 GB. The default disk space is 80 GB. Note: you can extend the disk space only before launching the Desktop. Additional disk space can be required writing at servicedesk@csc.fi (subject: Sensitive data);
 
 * **select** the preferred computing environment (based on your needs) and click on **Launch Desktop**
 
-The system will create a secure connection to your private computing environment. The process is completely automated and might take **up to 30 minutes**. 
 
-In SD Desktop (Open Beta) you can choose between **four different Desktops **:  
+In SD Desktop you can choose between **four different pre-built options **:  
 
-|Desktop |Core|Memory<br/>(GiB)|Root<br/>disk<br/>(GB)|Correspondent Flavour|Example usage|Billing<br/>Units<br/>/h|
-|--- |:---:|:---:|:---:|:---:|:---:|:---:|
-|Light computation |3|4 |80 |standard.medium |testing the service |1.3|
-|Small computation |6|15|80 |standard.xlarge |office software|5.2|
-|Medium computation|8|30|80 |standard.xxlarge |running statistical or genome analysis |10.4|
-|Heavy computation |8|168|80 |hpc4.40core|non-interactive programmatic computation|78|
+*  **Light computation**: this optin is ideal to test the services (for example: test how to start a Desktop, chek out how it looks, try to access data stored in SD Connect). You can compare this Destkop to a very simple laptop, which probably freezez when you open too many software or more then 3 colleagus access it at the same time. For this reason, we advise you to start this type of Desktop only for testing purposes and delete when the testing is completed.
+Techincal specifications: Core:3; memory 4 GiB; Root: 80 GB; Correspondent Pouta Flavour: standar.medium; Billing Units: 1.3 units/h
 
+* **Small computation**: this optin is ideal to analyze sensitive data using office stofware (for example: similarly to simple statistical analysis with Excel, whatch videos, listen to audio files, work on  text files). You can compare this Desktop to your laptop.
+Techincal specifications: Core:6; memory 15 GiB; Root: 80 GB; Correspondent Pouta Flavour: standar.xlarge; Billing Units: 5.2 units/h
 
-If you are not sure what is the best option for your needs/research, contact us at servicedesk@csc.fi (email subject: SD Desktop). Do not choose the Heavy computation option for simple computing or analysis, as it consumes a large amount of resources.
+* **Medium computation**: this optin is ideal to run complex statistical  or genome analysis (for example: use the command line to run specific scripts). You can compare this Desktop to a powerful laptop provided by your IT-unit.
+Techincal specifications: Core:8; memory 30 GiB; Root: 80 GB; Correspondent Pouta Flavour: standar.xxlarge; Billing Units: 10.4 units/h
 
-All the Desktop are provided with the same software. The complete and updated list can be found in the following paragraph: [Pre-installed list of software](./pre-installed_software.md).
+* **Heavy computation**: this option is ideal to run non-interactive programmatic computation (for example: machine learning). 
+Techincal computation: Core:8; memory 168 GiB; Root: 80 GB; Correspondent Pouta Flavour: hpc4.4core; Billing Units: 78 units/h
 
-
-<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122593105-db0ce480-d06d-11eb-8a42-aab26cf289b8.png">
-  
-![Screenshot_SD_Desktop_0109_launchingpage](https://user-images.githubusercontent.com/83574067/131730263-374e5188-a7ee-4e03-a890-e7112745e2e3.png)
-
-<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122593108-dcd6a800-d06d-11eb-9b51-2faaf2937b3a.png">
+We are not yet providing GPUs or virtual computers with Windows or Ubuntu operating system. However, you can find our webage to find our more on the the future development of the services.
+If you are not sure what is the best option for your needs/research, contact us at servicedesk@csc.fi (email subject: SD Desktop). Do not choose the Heavy computation option for simple computing or analysis, as it consumes a large amount of resources. We are not yet providing GPUs or Wisnows, Ubuntu operating system. However, you can find our webage to find our more on the the future development of the services.
 
 
+If the launch is successful, when you return to SD Desktop **Homepage**,  you will be able to access your new virtual Desktop in:
 
-If the launch is successful, when you return to SD Desktop **Homepage**,  you will be able to access the computing environment from:
+* **Recent connections**, clicking on the image of your Desktop (visible only if you recetly accessed the virtual Desktop)
 
-* **Recent connections**, clicking on the image of your Desktop
-
-* **All connections** if you click on + you can see all the connections associated with each project (e.g. project_NNNNN_NNNN). If you click on the connection ID you will also be able to access your computing environment. 
+* **All connections** if you click on + you can see all the connections associated with each project (e.g. project_NNNNN_NNNN). If you click on the connection ID you will also be able to access your virtual Desktop. 
 
 
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595541-4efcbc00-d071-11eb-9e34-ad96e414f506.png">
 ![SD-Desktop-Connection](https://user-images.githubusercontent.com/83574067/122604935-66db3c80-d07f-11eb-8364-df60b0e71699.png)
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595580-5b811480-d071-11eb-9b99-9dcad8b4ac17.png">
+
+
+
+
+
+
+
+## Working with your virtual Desktop
 
 
 In the Desktop you will be able to access different applications from the menu bar on the page top left corner (e.g. Open Office, Jupter Notebook ).
