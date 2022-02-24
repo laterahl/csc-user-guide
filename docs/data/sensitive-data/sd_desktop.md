@@ -70,11 +70,11 @@ For specific guidance regarding these steps check the [Accounts](../../accounts/
 
 
 [![Service-access](images/desktop/service-access-small.png)](images/desktop/service-access.png) 
+<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595830-ab5fdb80-d071-11eb-8eee-d90db85aa7ad.png">
 
-## Login
+## Login and authentication
 
 <iframe width="280" height="155"srcdoc="https://www.youtube.com/embed/VebHTUonOSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595830-ab5fdb80-d071-11eb-8eee-d90db85aa7ad.png">
 
 Login to SD Desktop is possible with user identity federation systems (Haka, Virtu and [Elixir Login](https://elixir-europe.org/register) or with  CSC Login at
 
