@@ -87,6 +87,7 @@ After login, **verify your identity** by entering the verification code provided
 For specific guidance regarding the verification step check the [Accounts](../../accounts/index.md) paragraph at the beginning of this user guide.
 
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595830-ab5fdb80-d071-11eb-8eee-d90db85aa7ad.png">
+
 [![Authentication](images/desktop/authentication-small.png)](images/desktop/authentication.png) 
 
 
