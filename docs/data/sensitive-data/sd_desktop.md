@@ -89,11 +89,11 @@ For specific guidance regarding the verification step check the [Accounts](../..
 [![Authentication](images/desktop/authentication-small.png)](images/desktop/authentication.png) 
 
 
-## Launching a private  Desktop
+## Starting a virtual Desktop
   
 <iframe width="280" height="155"srcdoc="https://www.youtube.com/embed/VebHTUonOSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Once you have access to SD Desktop, you can use the service to turn on your virtual computer ( here called Desktop), choosing bwteen four pre-built options. This operation can be carried out with a few clicks and does nto require any techincal knoledge. The services  will  start your virtual Desktop (or in techincal terms: luanch a virutal machine) and create a secure connection between CSC and your browser. The process is completely automated and might take **up to 30 minutes**. 
+Once you have access to SD Desktop, you can use the service to turn on your virtual computer (here called Desktop), choosing bwteen four pre-built options. This operation can be carried out with a few clicks and does nto require any techincal knoledge. The services  will  start your virtual Desktop (or in techincal terms: luanch a virutal machine) and create a secure connection between CSC and your browser. The process is completely automated and might take **up to 30 minutes**. 
 
 After starting your  Desktop, the virtual computer will always be directly available for use, every time you login to the service. Morever, the running Desktop will consume billing unites (or resources) from your CCS project, ultil the Desktop is deleted. As each CSC project has a defoult amout of billing units, we will give an example of consumption for each option. 
 
@@ -112,7 +112,7 @@ To start your Desktop, in Homepage, click on **Go To SD Desktop Management** pag
   
 * optionally, you can extend the disk space (or storage capability of your computer) clicking on **add an external disk**. You can add up to 200 GB. The default disk space is 80 GB. Note: you can extend the disk space only before launching the Desktop. Additional disk space can be required writing at servicedesk@csc.fi (subject: Sensitive data);
 
-* **select** the preferred computing environment (based on your needs) and click on **Launch Desktop**
+* **select** the preferred computing environment (based on your needs) and click on **Launch Desktop**. The operation can take up to **up to 30 minutes**. If you try to access the virtual Desktop and see a black screen, come back later. 
 
 
 In SD Desktop you can choose between **four different pre-built options **:  
