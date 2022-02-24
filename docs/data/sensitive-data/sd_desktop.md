@@ -115,6 +115,14 @@ To start your Desktop, in Homepage, click on **Go To SD Desktop Management** pag
 * **select** the preferred computing environment (based on your needs) and click on **Launch Desktop**. The operation can take up to **up to 30 minutes**. If you try to access the virtual Desktop and see a black screen, come back later. 
 
 
+
+
+[![Launch-virtual-Desktop](images/desktop/start-virtual-desktop-small.png)](images/desktop/start-virtual-desktop.png) 
+
+
+
+
+
 In SD Desktop you can choose between **four different pre-built options **:  
 
 *  **Light computation**: this optin is ideal to test the services (for example: test how to start a Desktop, chek out how it looks, try to access data stored in SD Connect). You can compare this Destkop to a very simple laptop, which probably freezez when you open too many software or more then 3 colleagus access it at the same time. For this reason, we advise you to start this type of Desktop only for testing purposes and delete when the testing is completed.
