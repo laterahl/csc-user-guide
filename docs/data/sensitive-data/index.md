@@ -68,7 +68,7 @@ Analyse and compute.
   
   * [**Authentication**](sd_desktop.md#login) (dependent on MFA UI)
 
-  * **Setting up a private Desktop** 
+  * [**Setting up a virtual Desktop**](sd_desktop.md#setting-up-a-virtual-desktop) 
 
   * **Working with Desktop**
 
