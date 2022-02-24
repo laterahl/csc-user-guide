@@ -2,7 +2,13 @@
 # SD Desktop (Sensitive Data Desktop)
 
 
-SD Desktop is a web-user interface that allows you to manage (start, use, delete) a private computing environment (here called private Desktop) from your web browser. No previous knowledge of cloud computing is required. SD Desktop is designed to process sensitive data and provide a secure workspace for collaborative research projects. 
+SD Desktop is a web-user interface that allows you to manage (start, use, delete) a private computing environment (here called Desktop) from your web browser. No previous knowledge of cloud computing is required. SD Desktop is designed to process sensitive data and provide a secure workspace for collaborative research projects. 
+In the following user guide you can learn how to:
+
+* apply for service access;
+* set up your Desktop;
+* analyze your data stored in SD Connect;
+* re-use published data stored under controlled access.
 
 ## Key features
 
