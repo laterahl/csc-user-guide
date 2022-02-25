@@ -18,8 +18,8 @@ For general information, see:
 [Sensitive Data services webpage](https://research.csc.fi/sensitive-data-services-for-research), general [FAQs](../sensitive-data/faq_index.md), services descriptions in [CSC service catalog](https://research.csc.fi/service-catalog).
 
 
-Note!!!
-       **If you can not find what you are looking for**, don't hesitate to contact us at servicedesk@csc.fi (subject: Sensitive Data). Our team is here to help.
+!!! Note
+    **If you can not find what you are looking for**, don't hesitate to contact us at servicedesk@csc.fi (subject: Sensitive Data). Our team is here to help.
 
 
   
