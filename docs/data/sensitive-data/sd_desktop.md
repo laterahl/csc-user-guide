@@ -150,13 +150,29 @@ Unfortunately, we are not yet providing GPUs or Windows, Ubuntu operating system
 
 ## Working with your virtual Desktop
 
-After launch, each CSC project member can awalys securely connect to the virtual Desktop from the service **Connection page**. Each Desktop supports the simutaneus connecion of 10 project memebers and each project can start up to 3 Desktops. 
+Each CSC project member can awalys securely connect to the virtual Desktop from SD Desktop  **Connection page**. 
 
-When you access the virtual Desktop for the first time, you will be able to see the setting boad. From here you can for example adjust the screen resolution.
-From the menu bar( top left corner) you can several pre-installed applications: for example Open Office, audio, video, images,  Jupiter Notebook. Ru tudio.
-If you are planning to edit files and allow your collegue to edit them, save them in the **Shared-directory**. The file will be visible, accessible and editable to all the members of the same CSC project. 
+Each virtual Desktop:
 
-As previously mentioned, you can **logout** from your computing environment at any moment (in the workspace view, top right corner of the browser, select your username and log out). Logging out will disconnect the work session. You will always be able to access your Desktop again after logging in. 
+* supports the simutaneus connecion of 10 project memebers 
+* each project can start up to 3 Desktops.
+* is CSC project-specific 
+* the computing enviroment completely isolated from the internet. 
+
+These are the main working space features:
+
+* the copy paste fucntion from your computer/laptop to the berowser visualizing your virtual Desktop is completely disabled for security reasons. 
+
+* When you access the virtual Desktop for the first time, you will be able to see the setting board. From here you can for example adjust the screen resolution.
+
+* From the menu bar (top left corner) you can several pre-installed software: for example Open Office, audio, video, images,  Jupiter Notebook. Ru tudio.(Complete list here).
+
+* If you are planning to edit files and allow your collegue to edit them, save them in the **Shared-directory**. The file will be visible, accessible and editable by all the members of the same CSC project. 
+
+* If you want to analize data, you can access encrypted data stored in SD Connect using the Data gateway application
+* If you want to re-use published sensitive data, you can access encrypted data in SD Sunmit using the Data Gateway application
+
+* As previously mentioned, you can **log out** from your computing environment at any moment (in the workspace view, top right corner of the browser, select your username and log out). Logging out will disconnect the work session. You will always be able to access your Desktop again after logging in to the service. 
 
 !!! Note
     **Never use the lock or reboot buttons** in SD Desktop as after that you will not be able to connect to the Desktop again.
@@ -170,19 +186,23 @@ As previously mentioned, you can **logout** from your computing environment at a
 
 
 
-## Accessing encrypted sensitive data within SD Desktop
+## Encrypted data access and data import
 
-This workflow is available only on Desktops **launched after November 4th, 2021**.
+As the  virtual Desktop is compeltely isolated fromt the internet, the only way to acess data for analisins is ustilizing a specific application called Data Gateway.
+This application will allow you to access encrypted data stored in SD Connect or in CSC repositories for sensitive data securly from your virtual Desktop.
+The encrypted files will be **visible in read-only mode (similarly to opening a pdf file or streaming a YouTube video)**. This solution allows you to process large amounts of data without the need of storing any copy on your Desktop. If the files have been encrypted with Sensitive Data Services public encryption key, they will be automatically decrypted by the application.
 
-**SD Access Filesystem** is an application that allows you to access encrypted data stored in SD Connect from your Desktop. The encrypted files will be **visible in read-only mode (similarly to opening a pdf file or streaming a YouTube video)**. This solution allows you to process large amounts of data without the need of storing any copy on your Desktop. If the files have been encrypted with CSC public encryption key, they will be automatically decrypted by the application.
+The application basically opens a secure gateway between your virtual Desktop and is able to read encryped data in a secure manner. 
 
-Once you are logged into your Desktop you can access encrypted data stored in SD Connect by following these steps:
+Once you are logged into your Desktop you can access encrypted data stored in CSC services for sensitive data by following these steps:
 
-* Open **SD Access Filesystem** (you can find the link to the application on your Desktop)
+* Open **Data Gaway** (you can find the link to the application on your Desktop)
+
+* selct the service from which you can access the data from (e.g. SD Connect or SD Apply)
 
 * Insert your **CSC credentials** (username and password. Note: we disabled the copy/paste options for security reasons; thus you need to type in your password)
 
-* **Click on ok**. The application will create a **new folder called Projects** accessible **from your desktop or from the terminal**. **Do not close or log out from SD Access Filesystem.**
+* **Click on ok**. The application will create a **new folder called Projects** accessible **from your desktop or from the terminal**. **Do not close or log out from SD Access Filesystem while  you are 
 
 
 ![SD Connect Filesystem](https://user-images.githubusercontent.com/83574067/140088063-5c099842-de29-42f4-b6a7-178f5ba03d86.png)
