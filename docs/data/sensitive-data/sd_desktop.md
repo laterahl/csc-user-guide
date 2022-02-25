@@ -2,12 +2,12 @@
 # SD Desktop (Sensitive Data Desktop)
 
 
-SD Desktop is a web-user interface that allows you to manage (start, use, delete) a virtual computer (here called Desktop) from your web browser. No previous knowledge of cloud computing is required. SD Desktop is designed to process sensitive data and provide a secure workspace for collaborative research projects. 
+SD Desktop is a web-user interface that allows you to manage (start, use, delete) a virtual computer (here called Desktop) from your web browser. No previous knowledge of cloud computing is required to use the service. SD Desktop is designed to process sensitive data and provide a secure workspace for collaborative research projects. 
 In the following user guide you can learn how to:
 
 * apply for service access;
 * set up your virtual Desktop;
-* analyze your data stored in SD Connect;
+* analyze data stored in SD Connect;
 * re-use published data stored under controlled access.
 
 ## Key features
@@ -95,7 +95,7 @@ Once you have access to SD Desktop, you can use the service to launch your virtu
 
 Each Desktop is CSC project-specific. Thus, if you add colleagues/collaborators as project members in the same CSC project, they will also be able to connect to a virtual Desktop and access the data stored in your project. Furthermore, all the Desktop are provided with the same software (pre-installed and managed by CSC). The complete and updated list can be found in the following paragraph: [Pre-installed list of software](./pre-installed_software.md).
 
-
+ 
 To start your Desktop, in Homepage, click on **Go To SD Desktop Management** page:
 
 * **select your CSC project**
@@ -129,7 +129,7 @@ Techincal specifications:**Core:8; memory 30 GiB; Root: 80 GB; Correspondent Pou
 * **Heavy computation**: this option is ideal for running non-interactive programmatic analysis (for example machine learning). Techincal specifications: **Core:8; memory 168 GiB; Root: 80 GB; Correspondent Pouta Flavour: hpc4.4core; Billing Units: 78 units/h**. Please do not choose the Heavy computation option for simple computing or analysis, as it consumes many resources. 
 
 !!! Note
-    If you are unsure what is the best  virtual Desktop option for your needs/research, contact us at servicedesk@csc.fi (email subject: SD Desktop). 
+   If you don't know what is the best Desktop option for your needs, contact us at servicedesk@csc.fi (email subject: SD Desktop). 
 
 
 If the launch is successful, when you return to SD Desktop **Homepage**,  you will be able to access your new virtual Desktop in:
