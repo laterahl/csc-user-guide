@@ -19,7 +19,7 @@ For general information, see:
 
 
 !!! Note
-    **If you can not find what you are looking for**, don't hesitate to contact us at servicedesk@csc.fi (subject: Sensitive Data). Our team is here to help.
+    **Do you have any question? Would you like to dicuss a specific project?**, don't hesitate to contact us at servicedesk@csc.fi (subject: Sensitive Data). Our team is here to help.
 
 
   
@@ -62,7 +62,7 @@ Analyse and compute.
 
   * [**Before you start**](sd_desktop.md#before-you-start)
   
-  * [**Overview**](sd_desktop.md#overview)  (nneds to be finalized)
+  * [**Overview**](sd_desktop.md#overview)  (needs to be finalized)
  
   * [**Service access**](sd_desktop.md#service-access)  
   
@@ -72,11 +72,11 @@ Analyse and compute.
 
   * **Working with your Desktop**
 
-          * [**Available software on SD Desktop**](./pre-installed_software.md)
+  * [**Available software on SD Desktop**](./pre-installed_software.md)
   
-          * [**Software customization**](sd-desktop-singularity.md) Advanced
+  * [**Software customization**](sd-desktop-singularity.md) Advanced
   
-  * ** Data access and data import**
+  * **Data access and data import**
 
   * **Data export** (dependent on download swapping available from 16 of March)
 
