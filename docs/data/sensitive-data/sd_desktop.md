@@ -115,7 +115,6 @@ To start your Desktop, in Homepage, click on **Go To SD Desktop Management** pag
 
 
 
-
 In SD Desktop, you can choose between **four different pre-built options **:  
 
 *  **Light computation**: this option is ideal for testing the services (for example, test how to start a Desktop, check out how it looks, try to access data stored in SD Connect). You can compare this Desktop to a very simple laptop, which probably freezes when you open too many software or more than three colleagues connect to it simultaneously. For this reason, we advise you to start this type of Desktop only for testing purposes and delete it when the testing is completed.
@@ -137,7 +136,7 @@ If the launch is successful, when you return to SD Desktop **Homepage**,  you wi
 
 * **Recent connections**, clicking on the image of your Desktop (visible only if you recently accessed the virtual Desktop)
 
-* **All connections** if you click on + you can see all the connections associated with each project (e.g. project_NNNNN_NNNN). If you click on the connection ID you will also access your virtual Desktop. 
+* **All connections** if you click on + you can see all the connections associated with each project (e.g. project_NNNNN_NNNN). If you click on the connection ID you will also access your Desktop. 
 
 
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595541-4efcbc00-d071-11eb-9e34-ad96e414f506.png">
@@ -145,14 +144,35 @@ If the launch is successful, when you return to SD Desktop **Homepage**,  you wi
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595580-5b811480-d071-11eb-9b99-9dcad8b4ac17.png">
 
 
-Unfortunately, we are not yet providing GPUs or Windows, Ubuntu operating systems. However, you can find more information on the future development of the services on our webpage.
-In teh next paragraph we will dicuss how to work with a private Destop, which software are pre-installed on it and how it is possible to customize your workspace. 
+Unfortunately, we are not yet providing GPUs or Windows, Ubuntu operating systems. However, you can find more information on the future developments of the services on our webpage.In the next paragraph we will dicuss how to work with a Desktop, which software are available and how it is possible to customize your workspace. 
 
 
 
 ## Working with your virtual Desktop
 
+After luancng a Desktop, the virtual computer remains always on and you  and your CSC project member can awalys  securly connect to it from the SD Desktop connection page. Each desktop supports the simutaneus connecion of 10 project memebers.  
 
+
+
+### Getting started
+
+
+### Software available
+
+
+## advaced
+
+
+
+
+
+
+
+
+
+When you access the virtual Desktop for the first time, you will be able to see the setting boad. from here you can for example adjust the screen resolution....
+
+From teh menu bar(top left corner) you can access the menu bar and several pre-installed applications: for example Open Office, audio, video, images,  Jupiter Notebook. Ru tudio.
 In the Desktop you will be able to access different applications from the menu bar on the page top left corner (e.g. Open Office, Jupter Notebook ).
 If you need to work on files or datasets with your colleagues, save them in the **Shared-directory**. The file will be visible and accessible to all the members of the same CSC project. 
 
@@ -353,3 +373,50 @@ For more information write to servicedesk@csc.fi (email subject SD Desktop)
 [![Service-access](images/desktop/try-smaller-combined.png)](images/desktop/try-larger-combined.png) 
 
 
+
+Deprecated:
+## Importing encrypted sensitive data to SD Desktop 
+
+The SD Connect Downloader application will be available only till December 2021.
+  
+<iframe width="280" height="155" srcdoc="https://www.youtube.com/embed/3UQLfYABP7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595580-5b811480-d071-11eb-9b99-9dcad8b4ac17.png">
+
+
+Once you are logged in into your SD Desktop **you can import encrypted sensitive data stored in SD Connect**.
+
+!!! Note
+    **If you use the CSC Sensitive Data Service public encryption key to encrypt the data, the files are  automatically decrypted**.  If you use your own key pair to encrypt the data, the application will make a copy and you need to manually decrypt them using Crypt4GH CLI. 
+
+To import the data:
+
+* **Open SD Connect Downloader client** (you can find the link to the application on your Desktop)
+
+* insert your **CSC credentials** (username and password. Note: we disabled the copy/paste options for security reasons, thus you need to type in your password)
+
+* select your CSC project
+
+* select the correct bucket 
+
+* select the files you want to import 
+
+* click on **download objects** (the application will make a copy of the encrypted files in SD Desktop).
+
+* click on **open download location**
+
+The files are downloaded to a directory called SDCONNECTDATA which is in the user's home directory. The folder is automatically opened by Open Download Location.
+
+Note: **If you used CSC Sensitive Data Service public encryption key to encrypt the data, the files are automatically decrypted **. 
+
+If you used your own key pair to encrypt the data, the application will make a copy and you need to manuallay decrypt them using Crypt4GH CLI. 
+
+<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595541-4efcbc00-d071-11eb-9e34-ad96e414f506.png">
+<img width="960" alt="SD Desktop 5" src="https://user-images.githubusercontent.com/83574067/121872988-9223fb80-cd0e-11eb-8c5b-7e19a2111407.png">
+<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595541-4efcbc00-d071-11eb-9e34-ad96e414f506.png">
+
+For security reasons, your private workspace in SD Desktop is **completely isolated from the Internet**. If you need to import specific scripts in SD Desktop (for example from GitHub or other trusted repositories) you need to use the same procedure described before:
+
+* download your scripts from GitHub and save them in a specific bucket in SD Connect
+
+* access SD Desktop and use the SD Connect Downloader to make a copy of the scripts
