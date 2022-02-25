@@ -19,7 +19,7 @@ For general information, see:
 
 
 !!! Note
-    **Do you have any question? Would you like to dicuss a specific project?**, don't hesitate to contact us at servicedesk@csc.fi (subject: Sensitive Data). Our team is here to help.
+    **Do you have any question? Would you like to dicuss a specific project?** Don't hesitate to contact us at servicedesk@csc.fi (subject: Sensitive Data). Our team is here to help.
 
 
   
@@ -58,31 +58,31 @@ Store and share.
 ## [Sensitive Data Desktop](./sd_desktop.md)
 Analyse and compute.
 
-* [**Key features**](./sd_desktop.md) (needs review)
+  * [**Key features**](./sd_desktop.md) (needs review)
 
-* [**Before you start**](sd_desktop.md#before-you-start)
+  * [**Before you start**](sd_desktop.md#before-you-start)
   
-* [**Overview**](sd_desktop.md#overview)  (needs to be finalized)
+  * [**Overview**](sd_desktop.md#overview)  (needs to be finalized)
  
-* [**Service access**](sd_desktop.md#service-access)  
+  * [**Service access**](sd_desktop.md#service-access)  
   
-* [**Authentication**](sd_desktop.md#login) (dependent on new MFA user interface)
+  * [**Authentication**](sd_desktop.md#login) (dependent on new MFA user interface)
 
-* [**Setting up a virtual Desktop**](sd_desktop.md#setting-up-a-virtual-desktop) 
+  * [**Setting up a virtual Desktop**](sd_desktop.md#setting-up-a-virtual-desktop) 
 
-* **Working with your Desktop**
+  * **Working with Desktop**
 
-  * ** Encrypted data access and data import withing SD Desktop**
+  * **Data access**
 
   * [**Available software on SD Desktop**](./pre-installed_software.md)
   
   * [**Software customization**](sd-desktop-singularity.md) Advanced
 
-* **Data export** (dependent on download swapping available from 16 of March)
+  * **Data export** (dependent on download swapping available from 16 of March)
 
-* **Deleting a private Desktop** 
+  * **Deleting a private Desktop** 
   
-* **Troubleshooting**
+  * **Troubleshooting**
   
   
 
