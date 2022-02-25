@@ -36,10 +36,10 @@ In the following user guide you can learn how to:
 
 ## Before you start
 
-* Independently of the login method used, you need a **CSC username and password to import data* * into your Desktop computing environment. If you don't remember it, check how to reset it at [Account: How to change password](../../accounts/how-to-change-password.md)
+* Independently of the login method used, you need a **CSC username and password to access or import encrypted data* * into your virtual Desktop. If you don't remember it, check how to reset it at [Account: How to change password](../../accounts/how-to-change-password.md)
 
 
-* **All the members belonging to a specific CSC project can access the same computing environment in SD Desktop.** Currently, it is possible to **launch 3 Desktops (or workspaces) for each CSC project**. Each CSC project has its own private Desktop, and **each Desktop is isolated from other CSC projects or CSC accounts unless you authorize it**.
+* **All the members belonging to a specific CSC project can access the same computing virtual Desktop.** Currently, it is possible to **launch 3 virtual Desktops (or computing enviroment) for each CSC project**. Each CSC project has its own private Desktop, and **each Desktop is isolated from other CSC projects or CSC accounts unless you authorize it**.
 
 * The project manager's or group leader's responsibility is to frequently review the list of members belonging to a project in MyCSC and verify who can access the data present in the project using SD Desktop or SD Connect. Remove the project members who do not need access to the data when their contribution is no longer needed.  
 
@@ -61,7 +61,7 @@ To access SD Desktop go to [MyCSC](https://my.csc.fi) and:
 * [join](../../accounts/how-to-add-members-to-project.md) or set up [a CSC project](../../accounts/how-to-create-new-project.md);
 * fill in the [description of data processing activities](../../accounts/when-your-project-handles-personal-data.md) form;
 * apply for additional [billing units](../../accounts/how-to-apply-for-billing-units.md) or [disk quota](../../accounts/how-to-increase-disk-quotas.md), if needed.
-* add [service access to Allas and SD Desktop](../../accounts/how-to-add-service-access-for-project.md) (CSC cloud storage solution);
+* add [service access to SD Connect and SD Desktop](../../accounts/how-to-add-service-access-for-project.md);
 * enable the additional security verification scanning the QR code with a specific application (e.g. Google Authenticator);
 
 For specific guidance regarding these steps check the [Accounts](../../accounts/index.md) paragraph at the beginning of this user guide.
@@ -74,15 +74,13 @@ For specific guidance regarding these steps check the [Accounts](../../accounts/
 
 <iframe width="280" height="155"srcdoc="https://www.youtube.com/embed/VebHTUonOSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Login to SD Desktop is possible with user identity federation systems (Haka, Virtu and [Elixir Login](https://elixir-europe.org/register) or with  CSC Login at
+Login to SD Desktop is possible with identity federation systems (Haka, Virtu and [Elixir Login](https://elixir-europe.org/register) or with  CSC Login at:
 
-[**https://sd-desktop.csc.fi**](https://sd-desktop.csc.fi)
+[**https://sd-desktop.csc.fi**](https://sd-desktop.csc.fi),
 
-using any modern web browser. 
+using any modern web browser (e.g. Google Chrome, Firefox). 
 
-After login, **verify your identity** by entering the verification code provided via the mobile application. 
-
-For specific guidance regarding the verification step, check the [Accounts](../../accounts/index.md) paragraph at the beginning of this user guide.
+After login, **verify your identity** by entering the verification **code** provided via the mobile application. For specific guidance regarding the verification step, check the [Accounts](../../accounts/index.md) paragraph at the beginning of this user guide.
 
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595830-ab5fdb80-d071-11eb-8eee-d90db85aa7ad.png">
 
@@ -93,13 +91,9 @@ For specific guidance regarding the verification step, check the [Accounts](../.
   
 <iframe width="280" height="155"srcdoc="https://www.youtube.com/embed/VebHTUonOSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Once you have access to SD Desktop, you can use the service to launch your virtual computer (here called Desktop), choosing between four pre-built options. This operation can be carried out with a few clicks and does not require any technical knowledge. Next, the services will start your virtual Desktop (or, in technical terms: launch a virtual machine) and create a secure connection between CSC and your browser. The process is completely automated and might take **up to 30 minutes**. 
+Once you have access to SD Desktop, you can use the service to launch your virtual computer (here called Desktop), choosing between four pre-built options. This operation can be carried out with a few clicks and does not require any technical knowledge. Next, the services will start your virtual Desktop (or, in technical terms: launch a virtual machine) and create a secure connection between CSC and your browser. After launch, your virtual Desktop will always be directly available for use every time you log in to the service. Moreover, the running Desktop will consume billing units (or resources) from your CSC project until the Desktop is deleted. 
 
-After launch, your virtual Desktop will always be directly available for use every time you log in to the service. Moreover, the running Desktop will consume billing units (or resources) from your CSC project until the Desktop is deleted.As each CSC project has a default amount of billing units, we will give an example of consumption for each option. 
-
-Each Desktop is CSC project-specific. Thus, if you add colleagues/collaborators as project members in the same CSC project, they will able also able to connect to a virtual Desktop and access the same data stored in your project. Furthermore, all the Desktop are provided with the same software (pre-installed and managed by CSC). The complete and updated list can be found in the following paragraph: [Pre-installed list of software](./pre-installed_software.md).
-
-
+Each Desktop is CSC project-specific. Thus, if you add colleagues/collaborators as project members in the same CSC project, they will also be able to connect to a virtual Desktop and access the data stored in your project. Furthermore, all the Desktop are provided with the same software (pre-installed and managed by CSC). The complete and updated list can be found in the following paragraph: [Pre-installed list of software](./pre-installed_software.md).
 
 
 To start your Desktop, in Homepage, click on **Go To SD Desktop Management** page:
@@ -112,8 +106,7 @@ To start your Desktop, in Homepage, click on **Go To SD Desktop Management** pag
   
 * optionally, you can extend your Desktop's disk space (or storage capability) by clicking on **add an external disk**. You can add up to 200 GB. The default disk space is 80 GB. Note: you can extend the disk space only before launching the Desktop. Additional disk space can be required writing at servicedesk@csc.fi (subject: Sensitive data);
 
-* **select** the preferred computing environment (based on your needs) and click on **Launch Desktop**. The operation can take up to **up to 30 minutes**. If you try to access the virtual Desktop and see a black screen, come back later. 
-
+* **select** the preferred computing environment (based on your needs) and click on **Launch Desktop**. The operation is compeltely authomated and can take **up to 30 minutes**. If you try to access the virtual Desktop and see a black screen, come back later. 
 
 
 
@@ -126,24 +119,18 @@ To start your Desktop, in Homepage, click on **Go To SD Desktop Management** pag
 In SD Desktop, you can choose between **four different pre-built options **:  
 
 *  **Light computation**: this option is ideal for testing the services (for example, test how to start a Desktop, check out how it looks, try to access data stored in SD Connect). You can compare this Desktop to a very simple laptop, which probably freezes when you open too many software or more than three colleagues connect to it simultaneously. For this reason, we advise you to start this type of Desktop only for testing purposes and delete it when the testing is completed.
-
-Techincal specifications: Core:3; memory 4 GiB; Root: 80 GB; Correspondent Pouta Flavour: standar.medium; Billing Units: 1.3 units/h
+Techincal specifications: **Core:3; memory 4 GiB; Root: 80 GB; Correspondent Pouta Flavour: standar.medium; Billing Units: 1.3 units/h**.
 
 * **Small computation**: this option is ideal for analyzing sensitive data using office software (for example: similar to simple statistical analysis with Excel, watching videos, listening to audio files, working on text files). You can compare this Desktop to your laptop.
-
-Techincal specifications: Core:6; memory 15 GiB; Root: 80 GB; Correspondent Pouta Flavour: standar.xlarge; Billing Units: 5.2 units/h
+Techincal specifications: **Core:6; memory 15 GiB; Root: 80 GB; Correspondent Pouta Flavour: standar.xlarge; Billing Units: 5.2 units/h**.
 
 * **Medium computation**: this option is ideal for running complex statistical or genome analysis (for example: use the command line to run specific scripts). You can compare this Desktop to a powerful laptop provided by your IT unit.
+Techincal specifications:**Core:8; memory 30 GiB; Root: 80 GB; Correspondent Pouta Flavour: standar.xxlarge; Billing Units: 10.4 units/h**.
 
-Techincal specifications: Core:8; memory 30 GiB; Root: 80 GB; Correspondent Pouta Flavour: standar.xxlarge; Billing Units: 10.4 units/h
+* **Heavy computation**: this option is ideal for running non-interactive programmatic analysis (for example machine learning). Techincal specifications: **Core:8; memory 168 GiB; Root: 80 GB; Correspondent Pouta Flavour: hpc4.4core; Billing Units: 78 units/h**. Please do not choose the Heavy computation option for simple computing or analysis, as it consumes many resources. 
 
-* **Heavy computation**: this option is ideal for running non-interactive programmatic analysis (for example machine learning). 
-
-Techincal specifications: Core:8; memory 168 GiB; Root: 80 GB; Correspondent Pouta Flavour: hpc4.4core; Billing Units: 78 units/h
-Please do not choose the Heavy computation option for simple computing or analysis, as it consumes many resources. 
-
-
-If you are unsure what is the best option for your needs/research, contact us at servicedesk@csc.fi (email subject: SD Desktop). 
+!!! Note
+    If you are unsure what is the best  virtual Desktop option for your needs/research, contact us at servicedesk@csc.fi (email subject: SD Desktop). 
 
 
 If the launch is successful, when you return to SD Desktop **Homepage**,  you will be able to access your new virtual Desktop in:
