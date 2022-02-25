@@ -129,7 +129,7 @@ Techincal specifications:**Core:8; memory 30 GiB; Root: 80 GB; Correspondent Pou
 * **Heavy computation**: this option is ideal for running non-interactive programmatic analysis (for example machine learning). Techincal specifications: **Core:8; memory 168 GiB; Root: 80 GB; Correspondent Pouta Flavour: hpc4.4core; Billing Units: 78 units/h**. Please do not choose the Heavy computation option for simple computing or analysis, as it consumes many resources. 
 
 !!! Note
-   If you don't know what is the best Desktop option for your needs, contact us at servicedesk@csc.fi (email subject: SD Desktop). 
+        If you don't know what is the best Desktop option for your needs, contact us at servicedesk@csc.fi (email subject: SD Desktop). 
 
 
 If the launch is successful, when you return to SD Desktop **Homepage**,  you will be able to access your new virtual Desktop in:
@@ -144,39 +144,22 @@ If the launch is successful, when you return to SD Desktop **Homepage**,  you wi
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595580-5b811480-d071-11eb-9b99-9dcad8b4ac17.png">
 
 
-Unfortunately, we are not yet providing GPUs or Windows, Ubuntu operating systems. However, you can find more information on the future developments of the services on our webpage.In the next paragraph we will dicuss how to work with a Desktop, which software are available and how it is possible to customize your workspace. 
+Unfortunately, we are not yet providing GPUs or Windows, Ubuntu operating systems. However, you can find more information on the future developments of the services on our webpage. In the next paragraphs we will dicuss how to work with a Desktop, which software are available and how it is possible to customize your workspace. 
 
 
 
 ## Working with your virtual Desktop
 
-After luancng a Desktop, the virtual computer remains always on and you  and your CSC project member can awalys  securly connect to it from the SD Desktop connection page. Each desktop supports the simutaneus connecion of 10 project memebers.  
+After launch, each CSC project member can awalys securely connect to the virtual Desktop from the service **Connection page**. Each Desktop supports the simutaneus connecion of 10 project memebers and each project can start up to 3 Desktops. 
 
+When you access the virtual Desktop for the first time, you will be able to see the setting boad. From here you can for example adjust the screen resolution.
+From the menu bar( top left corner) you can several pre-installed applications: for example Open Office, audio, video, images,  Jupiter Notebook. Ru tudio.
+If you are planning to edit files and allow your collegue to edit them, save them in the **Shared-directory**. The file will be visible, accessible and editable to all the members of the same CSC project. 
 
+As previously mentioned, you can **logout** from your computing environment at any moment (in the workspace view, top right corner of the browser, select your username and log out). Logging out will disconnect the work session. You will always be able to access your Desktop again after logging in. 
 
-### Getting started
-
-
-### Software available
-
-
-## advaced
-
-
-
-
-
-
-
-
-
-When you access the virtual Desktop for the first time, you will be able to see the setting boad. from here you can for example adjust the screen resolution....
-
-From teh menu bar(top left corner) you can access the menu bar and several pre-installed applications: for example Open Office, audio, video, images,  Jupiter Notebook. Ru tudio.
-In the Desktop you will be able to access different applications from the menu bar on the page top left corner (e.g. Open Office, Jupter Notebook ).
-If you need to work on files or datasets with your colleagues, save them in the **Shared-directory**. The file will be visible and accessible to all the members of the same CSC project. 
-
-As previously mentioned, you can **logout** from your computing environment at any moment (in the workspace view, top right corner of the browser, select your username and log out). Logging out will disconnect the work session. You will always be able to access your Desktop again after logging in. **Never use the lock or reboot buttons** in SD Desktop as after that you will not be able to connect to the Desktop again.
+!!! Note
+    **Never use the lock or reboot buttons** in SD Desktop as after that you will not be able to connect to the Desktop again.
 
 
 <img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595541-4efcbc00-d071-11eb-9e34-ad96e414f506.png">
