@@ -75,6 +75,8 @@ Analyse and compute.
   * [**Available software on SD Desktop**](./pre-installed_software.md)
   
   * [**Software customization**](sd-desktop-singularity.md) Advanced
+  
+  * ** Data access and data import**
 
   * **Data export** (dependent on download swapping available from 16 of March)
 
