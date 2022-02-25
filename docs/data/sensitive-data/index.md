@@ -58,23 +58,23 @@ Store and share.
 ## [Sensitive Data Desktop](./sd_desktop.md)
 Analyse and compute.
 
-  * [**Key features**](sd_desktop.md#key-features)
+  * [**Key features**](./sd_desktop.md) (needs review)
 
   * [**Before you start**](sd_desktop.md#before-you-start)
   
-  * [**Overview**](sd_desktop.md#overview)  
+  * [**Overview**](sd_desktop.md#overview)  (nneds to be finalized)
  
   * [**Service access**](sd_desktop.md#service-access)  
   
-  * [**Authentication**](sd_desktop.md#login) (dependent on MFA UI)
+  * [**Authentication**](sd_desktop.md#login) (dependent on new MFA user interface)
 
   * [**Setting up a virtual Desktop**](sd_desktop.md#setting-up-a-virtual-desktop) 
 
-  * **Working with Desktop**
+  * **Working with your Desktop**
 
-  * [**Available software on SD Desktop**](./pre-installed_software.md)
+          * [**Available software on SD Desktop**](./pre-installed_software.md)
   
-  * [**Software customization**](sd-desktop-singularity.md) Advanced
+          * [**Software customization**](sd-desktop-singularity.md) Advanced
   
   * ** Data access and data import**
 
