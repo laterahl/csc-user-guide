@@ -91,14 +91,15 @@ After login, **verify your identity** by entering the verification **code** prov
   
 <iframe width="280" height="155"srcdoc="https://www.youtube.com/embed/VebHTUonOSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Once you have access to SD Desktop, you can use the service to launch your virtual computer (here called Desktop), choosing between four pre-built options. This operation can be carried out with a few clicks and does not require any technical knowledge. Next, the services will start your virtual Desktop (or, in technical terms: launch a virtual machine) and create a secure connection between CSC and your browser. After launch, your virtual Desktop will always be directly available for use every time you log in to the service. Moreover, the running Desktop will consume billing units (or resources) from your CSC project until the Desktop is deleted. 
+Once you have access to the service, you can launch your virtual computer (here called Desktop), choosing between four pre-built options. This operation can be carried out with a few simple steps and does not require any technical knowledge. Next, the services will start your virtual Desktop (or, in technical terms: launch a virtual machine) and create a secure connection between CSC and your browser. After launch, your virtual Desktop will  be directly available for use every time you log in to the service. Moreover, the running Desktop will consume billing units (or resources) from your CSC project until the Desktop is deleted. 
 
-Each Desktop is CSC project-specific. Thus, if you add colleagues/collaborators as project members in the same CSC project, they will also be able to connect to a virtual Desktop and access the data stored in your project. Furthermore, all the Desktop are provided with the same software (pre-installed and managed by CSC). The complete and updated list can be found in the following paragraph: [Pre-installed list of software](./pre-installed_software.md).
+Each Desktop is CSC project-specific and supports the luanch of **3 virtual Desktops**. Each Desktop supports the simutaneus connecion of **10 project memebers**.
+Thus, if you add colleagues/collaborators as project members in the same CSC project, they will also be able to connect to a virtual Desktop and access the data stored in your project. Furthermore, all the Desktop are provided with the same software (pre-installed and managed by CSC). The complete and updated list can be found in the following paragraph: [Pre-installed list of software](./pre-installed_software.md).
 
  
-To start your Desktop, in Homepage, click on **Go To SD Desktop Management** page:
+To start your Desktop, in SD Desktop Connection page, click on **Go To SD Desktop Management** page:
 
-* **select your CSC project**
+* **select your CSC project**, 
 
 * **choose the operating system** (currently the only possible operating system  is Linux CentOS 7)
   
@@ -111,7 +112,6 @@ To start your Desktop, in Homepage, click on **Go To SD Desktop Management** pag
 
 
 [![Launch-virtual-Desktop](images/desktop/start-virtual-desktop-small.png)](images/desktop/start-virtual-desktop.png) 
-
 
 
 
@@ -129,7 +129,7 @@ Techincal specifications:**Core:8; memory 30 GiB; Root: 80 GB; Correspondent Pou
 * **Heavy computation**: this option is ideal for running non-interactive programmatic analysis (for example machine learning). Techincal specifications: **Core:8; memory 168 GiB; Root: 80 GB; Correspondent Pouta Flavour: hpc4.4core; Billing Units: 78 units/h**. Please do not choose the Heavy computation option for simple computing or analysis, as it consumes many resources. 
 
 !!! Note
-        If you don't know what is the best Desktop option for your needs, contact us at servicedesk@csc.fi (email subject: SD Desktop). 
+        If you don't know what is the best Desktop option for your needs, contact us at servicedesk@csc.fi (email subject: Sensitive Data). 
 
 
 If the launch is successful, when you return to SD Desktop **Homepage**,  you will be able to access your new virtual Desktop in:
@@ -150,27 +150,21 @@ Unfortunately, we are not yet providing GPUs or Windows, Ubuntu operating system
 
 ## Working with your virtual Desktop
 
-Each CSC project member can awalys securely connect to the virtual Desktop from SD Desktop  **Connection page**. 
-
-Each virtual Desktop:
-
-* supports the simutaneus connecion of 10 project memebers 
-* each project can start up to 3 Desktops.
-* is CSC project-specific 
-* the computing enviroment completely isolated from the internet. 
+Once teh virtual Desktop is launched, each CSC project member can  securely connect to it  from SD Desktop  **Connection page**. 
 
 These are the main working space features:
 
-* the copy paste fucntion from your computer/laptop to the berowser visualizing your virtual Desktop is completely disabled for security reasons. 
+* the computing envuroment is isolated from teh internet;
 
-* When you access the virtual Desktop for the first time, you will be able to see the setting board. From here you can for example adjust the screen resolution.
+* the copy paste fucntion from your computer/laptop to the berowser visualizing your virtual Desktop is completely disabled for security reasons;
 
-* From the menu bar (top left corner) you can several pre-installed software: for example Open Office, audio, video, images,  Jupiter Notebook. Ru tudio.(Complete list here).
+* when you access the virtual Desktop for the first time, you will be able to see the setting board. From here you can for example adjust the screen resolution;
 
-* If you are planning to edit files and allow your collegue to edit them, save them in the **Shared-directory**. The file will be visible, accessible and editable by all the members of the same CSC project. 
+* From the menu bar (top left corner) you can several pre-installed software: for example Open Office, audio, video, images,  Jupiter Notebook. Ru tudio.(Complete list below);
 
-* If you want to analize data, you can access encrypted data stored in SD Connect using the Data gateway application
-* If you want to re-use published sensitive data, you can access encrypted data in SD Sunmit using the Data Gateway application
+* If you are planning to work with other colleagues on the same files, save them in the **Shared-directory**. The file will be visible, accessible and editable by all the members of the same CSC project;
+
+* You can import scripts or data using SD Connect and the Data gateway application;
 
 * As previously mentioned, you can **log out** from your computing environment at any moment (in the workspace view, top right corner of the browser, select your username and log out). Logging out will disconnect the work session. You will always be able to access your Desktop again after logging in to the service. 
 
@@ -186,13 +180,14 @@ These are the main working space features:
 
 
 
-## Encrypted data access and data import
+## Encrypted data access and data import using Data Gateway
 
 As the  virtual Desktop is compeltely isolated fromt the internet, the only way to acess data for analisins is ustilizing a specific application called Data Gateway.
 This application will allow you to access encrypted data stored in SD Connect or in CSC repositories for sensitive data securly from your virtual Desktop.
-The encrypted files will be **visible in read-only mode (similarly to opening a pdf file or streaming a YouTube video)**. This solution allows you to process large amounts of data without the need of storing any copy on your Desktop. If the files have been encrypted with Sensitive Data Services public encryption key, they will be automatically decrypted by the application.
+The encrypted files will be **visible in read-only mode (similarly to opening a pdf file or streaming a YouTube video)**. This solution allows you to process large amounts of data without the need of storing any copy on your virtual Desktop. 
 
-The application basically opens a secure gateway between your virtual Desktop and is able to read encryped data in a secure manner. 
+How does Data Gatway work?
+The application  opens a secure gateway between your virtual Desktop and the buket in SD Connect sotring encrypted data. Moreover, Data Gatway can directly read data encrypted with the SD Connect or the Sensitive Data Services public encryption key allowing you to  securly access the original decripted files inside the virtual Desktop.
 
 Once you are logged into your Desktop you can access encrypted data stored in CSC services for sensitive data by following these steps:
 
@@ -202,20 +197,19 @@ Once you are logged into your Desktop you can access encrypted data stored in CS
 
 * Insert your **CSC credentials** (username and password. Note: we disabled the copy/paste options for security reasons; thus you need to type in your password)
 
-* **Click on ok**. The application will create a **new folder called Projects** accessible **from your desktop or from the terminal**. **Do not close or log out from SD Access Filesystem while  you are 
+* **Click on continue**
+
+* In the new window, at the end of teh page, **Click on ok**. The application will create a **new folder called Projects** accessible **from your desktop or from the terminal** from which you can access the data. If the files have been encrypted using SD Connect or the **sensitive data public encryption key** you will be able to access their content in read-only mode. The current streaming speed can be up to 50 MB/s. 
+
+!!! Note
+    The Projects folder is **available only when the Data Gateway application is open**. If you signe out from the application, you will not be able to access the data stored in other Sensitive Data services, unless you previously made a full copy of it inside yoru Desktop. Thus, Data Gatway needs to be open during data processing in streaming mode.
 
 
 ![SD Connect Filesystem](https://user-images.githubusercontent.com/83574067/140088063-5c099842-de29-42f4-b6a7-178f5ba03d86.png)
 
 
-* From the Projects folder you can access subfolders named with your CSC project ID, from which you can visualize all the encrypted files stored in a specific bucket. 
-
 ![FIlesystem 2](https://user-images.githubusercontent.com/83574067/140091946-33105054-5b65-4b53-9d29-6b7f0b6399fe.png)
-
-
-* If the files are **encrypted with the CSC public encryption key** you will be able to access their content in read-only mode. The current streaming speed can be up to 50 MB/s. 
-
-* The Projects folder is **available only when the SD Access Filesystem application is open**. If you log out from the application, you will not be able to access the data stored in SD Connect, unless you previously made a full copy of it. 
+ 
 
 ![Untitled-2](https://user-images.githubusercontent.com/83574067/140091591-139401d5-512e-4301-a046-e68d8bbc4d40.png)
 
@@ -224,58 +218,97 @@ Once you are logged into your Desktop you can access encrypted data stored in CS
 **If you need to edit the files/data**:
 
  * access the files of interest in the Project folder **using SD Access Filesystem**
- *  make a **copy** and save it in your **home directory** (the files will be visible only from your browser) or in the **shared folder** (in this case, the files will be accessible also by all the colleagues belonging to your CSC project). 
+ *  make a **copy** and save it in the virtual Desktop **home directory** (the files will be visible only from your browser) or in the **shared folder** (in this case, the files will be accessible also by all the CSC project memebers). 
  
-For security reasons, your private workspace in SD Desktop is completely isolated from the Internet. If you need to visualize or import specific scripts into your Desktop (for example from GitHub or other trusted repositories) you can use the same procedure described above.
+!!! Note
+    For security reasons, your private workspace in SD Desktop is completely isolated from the Internet. If you need to visualize or import specific scripts into your Desktop (for example from GitHub or other trusted repositories) you can use the same procedure described above.
 
 
 
-## Importing encrypted sensitive data to SD Desktop 
 
-The SD Connect Downloader application will be available only till December 2021.
-  
-<iframe width="280" height="155" srcdoc="https://www.youtube.com/embed/3UQLfYABP7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+## Available software provided on SD Desktop
 
-<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595580-5b811480-d071-11eb-9b99-9dcad8b4ac17.png">
+ Currently, each virtual Desktop (or virtual computer) is pre-built and contains a limited set of pre-installed open source software (listed below). 
 
+Users are allowed to install their own user level software to SD Desktop, but this requires techincal experties. As SD Desktop is isolated from internet you can't use istallation tools like _git_, _coda_, _cpan_ or _pip_ that are depended on internet connections to external repositories. Further, SD Desktop users can't do any opeartion that need superuser access.
 
-Once you are logged in into your SD Desktop **you can import encrypted sensitive data stored in SD Connect**.
+Often the most covienient way to add new software to your SD Desktop is to build a Singularity container outside SD Desktop and then import the Singularity ilmage through SD Connect to SD Desktop. The two documents below describe two sample cases on adding software with containers
+
+   1. [Importing ready made software containers from a public repository to SD Desktop](./sd-desktop-singularity.md)
+   2. [Creating you own Singularity contaner and importing it to SD Desktop](./creating_containers.md)
+
 
 !!! Note
-    **If you use the CSC Sensitive Data Service public encryption key to encrypt the data, the files are  automatically decrypted**.  If you use your own key pair to encrypt the data, the application will make a copy and you need to manually decrypt them using Crypt4GH CLI. 
+    If the list below is not clear of if you need a specific software for anlyzing your data, please don't esitate to contact us at servicedesk@csc.fi (subject: Sensitive Data). We can support you in your Desktop customization. Morevere, we are working on the development of our services to provide also prorpietary software. Follow our future developments webpage for constant updates. 
+    
+   
 
-To import the data:
+**Pre-installed software**:
 
-* **Open SD Connect Downloader client** (you can find the link to the application on your Desktop)
 
-* insert your **CSC credentials** (username and password. Note: we disabled the copy/paste options for security reasons, thus you need to type in your password)
-
-* select your CSC project
-
-* select the correct bucket 
-
-* select the files you want to import 
-
-* click on **download objects** (the application will make a copy of the encrypted files in SD Desktop).
-
-* click on **open download location**
-
-The files are downloaded to a directory called SDCONNECTDATA which is in the user's home directory. The folder is automatically opened by Open Download Location.
-
-Note: **If you used CSC Sensitive Data Service public encryption key to encrypt the data, the files are automatically decrypted **. 
-
-If you used your own key pair to encrypt the data, the application will make a copy and you need to manuallay decrypt them using Crypt4GH CLI. 
-
-<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595541-4efcbc00-d071-11eb-9e34-ad96e414f506.png">
-<img width="960" alt="SD Desktop 5" src="https://user-images.githubusercontent.com/83574067/121872988-9223fb80-cd0e-11eb-8c5b-7e19a2111407.png">
-<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595541-4efcbc00-d071-11eb-9e34-ad96e414f506.png">
-
-For security reasons, your private workspace in SD Desktop is **completely isolated from the Internet**. If you need to import specific scripts in SD Desktop (for example from GitHub or other trusted repositories) you need to use the same procedure described before:
-
-* download your scripts from GitHub and save them in a specific bucket in SD Connect
-
-* access SD Desktop and use the SD Connect Downloader to make a copy of the scripts
+   * Centos 7 linx with an extended set of system libraries
+   * GNOME desktop
+   * Java (Open JDK 1.8.)
+   * gcc 4.8-5
+   * Singularity 3.7.3 
+   * Go 1.16 
+   * Libreoffice  7.1
+   * Firefox
  
+## Scientific software 
+
+   * Python 3.7.9 including following packages:      
+        * tensorflow nltk spacy scikit-learn seaborn plotly bokeh pydot xgboost lightgbm catboost eli5 torch keras dist-keras elephas gensim scrapy beautifulsoup4 numpy scipy pandas statsmodels matplotlib pyfuse3 crypt4gh trio httpx qrcode 
+   * R / RStudio Server
+
+      * Installation matching the `r-env-singularity/4.0.5` module on Puhti (R 4.0.5 + RStudio Server 1.4.1106, Bioconductor 3.12)
+      * 1000+ pre-installed R packages (versions available on Apr 20 2021)
+      * Intel® oneAPI Math Kernel Library (oneMKL)
+      * GIS software (PROJ, GDAL, SAGA)
+      * CUDA drivers 
+      * TensorFlow (used with R TensorFlow back-end)
+
+      * R + RStudio Server versions matched with Puhti r-env-singularity module (R 4.0.5 + RStudio Server 1.4.1106, MRAN, Bioconductor 3.12) 
+   * GIS software (PROJ, GDAL, SAGA) 
+   * CUDA drivers 
+   * TensorFlow (used with R TensorFlow back-end) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
  
 ## RStudio in SD Desktop
@@ -423,3 +456,10 @@ For security reasons, your private workspace in SD Desktop is **completely isola
 * download your scripts from GitHub and save them in a specific bucket in SD Connect
 
 * access SD Desktop and use the SD Connect Downloader to make a copy of the scripts
+
+
+
+
+
+
+
