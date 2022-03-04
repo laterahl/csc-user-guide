@@ -180,7 +180,7 @@ These are the main working space features:
 
 
 
-## Encrypted data access and data import using Data Gateway
+## Encrypted data access in your Desktop
 
 As the  virtual Desktop is compeltely isolated fromt the internet, the only way to acess data for analisins is ustilizing a specific application called Data Gateway.
 This application will allow you to access encrypted data stored in SD Connect or in CSC repositories for sensitive data securly from your virtual Desktop.
@@ -188,6 +188,8 @@ The encrypted files will be **visible in read-only mode (similarly to opening a 
 
 How does Data Gatway work?
 The application  opens a secure gateway between your virtual Desktop and the buket in SD Connect sotring encrypted data. Moreover, Data Gatway can directly read data encrypted with the SD Connect or the Sensitive Data Services public encryption key allowing you to  securly access the original decripted files inside the virtual Desktop.
+
+### Accessing data using Data Gatway
 
 Once you are logged into your Desktop you can access encrypted data stored in CSC services for sensitive data by following these steps:
 
@@ -213,12 +215,13 @@ Once you are logged into your Desktop you can access encrypted data stored in CS
 
 ![Untitled-2](https://user-images.githubusercontent.com/83574067/140091591-139401d5-512e-4301-a046-e68d8bbc4d40.png)
 
-
+### Importing data inside the Desktop
 
 **If you need to edit the files/data**:
 
- * access the files of interest in the Project folder **using SD Access Filesystem**
- *  make a **copy** and save it in the virtual Desktop **home directory** (the files will be visible only from your browser) or in the **shared folder** (in this case, the files will be accessible also by all the CSC project memebers). 
+ * access the files of interest in the Project folder **using Data Gateway**
+ 
+ *  Select all the necessary files from the Project folder, make a **copy** and save it in the virtual Desktop **home directory** (the files will be visible only from your browser) or in the **shared folder** (in this case, the files will be accessible also by all the CSC project memebers). 
  
 !!! Note
     For security reasons, your private workspace in SD Desktop is completely isolated from the Internet. If you need to visualize or import specific scripts into your Desktop (for example from GitHub or other trusted repositories) you can use the same procedure described above.
@@ -246,14 +249,38 @@ Often the most covienient way to add new software to your SD Desktop is to build
 **Pre-installed software**:
 
 
-   * Centos 7 linx with an extended set of system libraries
-   * GNOME desktop
-   * Java (Open JDK 1.8.)
-   * gcc 4.8-5
-   * Singularity 3.7.3 
-   * Go 1.16 
-   * Libreoffice  7.1
-   * Firefox
+
+
+* CentOS7
+
+* Emacs
+
+* htlib
+
+* LibreOffice
+
+* miniconda
+
+* minimap2
+
+* pigz
+
+* pyro.ai
+
+* Python
+
+* R + R studio
+
+* samtools
+
+* nextflow
+
+* golang
+
+
+
+
+  
  
 ## Scientific software 
 
