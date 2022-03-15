@@ -172,48 +172,49 @@ These are the main working space features:
     **Never use the lock or reboot buttons** in SD Desktop as after that you will not be able to connect to the Desktop again.
 
 
-<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595541-4efcbc00-d071-11eb-9e34-ad96e414f506.png">
-
- ![Screeshoot_SDDesktop_0109_wrokspace](https://user-images.githubusercontent.com/83574067/131730403-3e96b440-9750-4bda-a5ef-7703d0d9c3ee.png)
-
-<img width="574" alt="space" src="https://user-images.githubusercontent.com/83574067/122595580-5b811480-d071-11eb-9b99-9dcad8b4ac17.png">
-
-
 
 ## Encrypted data access in your Desktop
 
-As the  virtual Desktop is compeltely isolated fromt the internet, the only way to acess data for analisins is ustilizing a specific application called Data Gateway.
-This application will allow you to access encrypted data stored in SD Connect or in CSC repositories for sensitive data securly from your virtual Desktop.
-The encrypted files will be **visible in read-only mode (similarly to opening a pdf file or streaming a YouTube video)**. This solution allows you to process large amounts of data without the need of storing any copy on your virtual Desktop. 
+As the  virtual Desktop is completely isolated from the Internet, the only way to access data for analysis is utilizing a specific application called Data Gateway.
+This application will allow you to access encrypted data stored in SD Connect or in CSC repositories for sensitive data securely from your virtual Desktop.
+Encrypted files will be **visible in read-only mode (similarly to opening a pdf file or streaming a YouTube video)**. This solution allows you to process large amounts of data without storing any copy on your virtual Desktop. 
 
-How does Data Gatway work?
-The application  opens a secure gateway between your virtual Desktop and the buket in SD Connect sotring encrypted data. Moreover, Data Gatway can directly read data encrypted with the SD Connect or the Sensitive Data Services public encryption key allowing you to  securly access the original decripted files inside the virtual Desktop.
+How does Data Gateway work?
+The application opens a secure connection between your virtual Desktop and SD Connect. Moreover, Data Gateway can directly read data encrypted with the SD Connect or the Sensitive Data Services public encryption key, allowing you to securely access the original decrypted files inside the virtual Desktop.
 
-### Accessing data using Data Gatway
+!!! None
+    Only data encrypted with the Sensitive Data Services encryption key can be accessed in SD Desktop. If you try to access unencrypted data or files encrypted only with your public encryption key thsi will resut in an error. 
 
-Once you are logged into your Desktop you can access encrypted data stored in CSC services for sensitive data by following these steps:
+### Accessing data using Data Gateway
 
-* Open **Data Gaway** (you can find the link to the application on your Desktop)
+Once you are logged into your Desktop, you can access encrypted data stored in CSC services for sensitive data by following these steps:
 
-* selct the service from which you can access the data from (e.g. SD Connect or SD Apply)
+* Open **Data Galway** (you can find the link to the application on your Desktop)
+
+* select the service from which you can access the data from (e.g. SD Connect)
+
+![data gateway 1](https://user-images.githubusercontent.com/83574067/158361532-3cc06b71-1e17-482d-ab66-0b9c7362a4bf.png)
 
 * Insert your **CSC credentials** (username and password. Note: we disabled the copy/paste options for security reasons; thus you need to type in your password)
 
-* **Click on continue**
+* **Click on Login** and next clic on **Continue**
 
-* In the new window, at the end of teh page, **Click on ok**. The application will create a **new folder called Projects** accessible **from your desktop or from the terminal** from which you can access the data. If the files have been encrypted using SD Connect or the **sensitive data public encryption key** you will be able to access their content in read-only mode. The current streaming speed can be up to 50 MB/s. 
+
+![data gateway 2](https://user-images.githubusercontent.com/83574067/158361642-450de52e-b167-4492-baa3-6df63d19f7f9.png)
+
+
+* In the new window, at the end of the page, **Click on create Data Gateway**. The application will create a **new folder called Projects** accessible **from your Desktop or programmatically the terminal** to access the data. Next click on **Oper folder**.
+
+![data gateway 3](https://user-images.githubusercontent.com/83574067/158361742-b23c50f7-cb82-4c84-88f3-d3ef6fe78bf1.png)
+
+
+![data gateway 5](https://user-images.githubusercontent.com/83574067/158361880-c4e059d0-5191-4397-89c2-d0bd54b1d454.png)
+
+
+*   If the files have been encrypted using SD Connect or the **sensitive data public encryption key**, you will be able to access their content in read-only mode. The current streaming speed can be up to 50 MB/s. 
 
 !!! Note
-    The Projects folder is **available only when the Data Gateway application is open**. If you signe out from the application, you will not be able to access the data stored in other Sensitive Data services, unless you previously made a full copy of it inside yoru Desktop. Thus, Data Gatway needs to be open during data processing in streaming mode.
-
-
-![SD Connect Filesystem](https://user-images.githubusercontent.com/83574067/140088063-5c099842-de29-42f4-b6a7-178f5ba03d86.png)
-
-
-![FIlesystem 2](https://user-images.githubusercontent.com/83574067/140091946-33105054-5b65-4b53-9d29-6b7f0b6399fe.png)
- 
-
-![Untitled-2](https://user-images.githubusercontent.com/83574067/140091591-139401d5-512e-4301-a046-e68d8bbc4d40.png)
+    The Projects folder is **available only when the Data Gateway application is open**. If you sign out from the application, you will not access the data stored in other Sensitive Data services unless you previously made a full copy of it inside your Desktop. Thus, Data Gateway needs to be open during data processing in streaming mode.
 
 ### Importing data inside the Desktop
 
@@ -221,11 +222,10 @@ Once you are logged into your Desktop you can access encrypted data stored in CS
 
  * access the files of interest in the Project folder **using Data Gateway**
  
- *  Select all the necessary files from the Project folder, make a **copy** and save it in the virtual Desktop **home directory** (the files will be visible only from your browser) or in the **shared folder** (in this case, the files will be accessible also by all the CSC project memebers). 
+ *  Select all the necessary files from the Project folder, make a **copy** and save it in the virtual Desktop **home directory** (the files will be visible only from your browser) or in the **shared folder** (in this case, the files will be accessible also by all the CSC project members). 
  
 !!! Note
-    For security reasons, your private workspace in SD Desktop is completely isolated from the Internet. If you need to visualize or import specific scripts into your Desktop (for example from GitHub or other trusted repositories) you can use the same procedure described above.
-
+    Your private workspace in SD Desktop is completely isolated from the Internet for security reasons. If you need to visualize or import specific scripts into your Desktop (for example, from GitHub or other trusted repositories), you can use the same procedure described above.
 
 
 
