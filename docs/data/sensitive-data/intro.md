@@ -33,7 +33,7 @@ To facilitate this process, when you create a new CSC project using the MyCSC po
 You can then download these documents and share them with the legal services in your organisation or the Data Controller's legal representative. If you have any questions about these documents or additional legal agreements are needed between your organisation and CSC, contact us at servicedesk@csc.fi (email subject: Sensitive Data).
 
 In case you need to draft a **Data Protection Impact Assessment (DPIA)**, you can find the technical and organizational security measures for the protection of
-sensitive data in CSC Sensitive Data service available for download [here](./technical-organisational-sec-measures.pdf)
+sensitive data in CSC Sensitive Data service available for download [here](./technical-organisational-sec-measures.pdf).
 
 
 
