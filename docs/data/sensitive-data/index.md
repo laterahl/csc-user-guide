@@ -29,6 +29,8 @@ For general information, see:
   * [**Legal agreements**]
   * [**Getting started**]
   * [**Useful terminology**]
+
+
   
 ## [Sensitive Data Connect](./sd_connect.md)
 Store and share.
@@ -46,13 +48,19 @@ Store and share.
 
  * **Introduction to the User Interface** ( UI not available until 16 of March)
    
- * **Sensitive data encryption and upload (less than 1 GB) - User Interface** ( UI not available until 16 of March)
+ * **Sensitive data defualt encryption and upload (less than 1 GB) - User Interface** 
  
- * **Sensitive data encryption and upload (less than 100 GB)- User Iinterface**
+ * **Sensitive data default encryption and upload (less than 100 GB)- User Interface**
  
- * **Sensitive data encryption and upload - Command Line Interface** Advanced
+ * **Sensitive data default encryption and upload - Command Line Interface** Advanced
+
+ * **Sensitive data encryption with own key and upload (less than 1 GB) - User Interface** 
+ 
+ * **Sensitive data encryptionwith with own key and upload (less than 100 GB)- User Iinterface**
+ 
+ * **Sensitive data encryption with own key and upload - Command Line Interface** Advanced
        
- * **Data encryption for data sharing (less than 1 GB) - User Interface** ( UI not available until 16 of March)
+ * **Data encryption for data sharing (less than 1 GB) - User Interface** 
  
  * **Data encryption for data sharing (less then 100 GB) -  User Interface** Advanced
  
