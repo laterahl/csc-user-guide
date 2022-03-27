@@ -20,7 +20,6 @@ Sensitive Data services for research consists of four components, all accessible
 
 Once you upload encrypted sensitive data to CSC via Sensitive Data services, they are accessible from one service component to the other while the original files are always encrypted: during data storage or analysis. **Data encryption does not require technical expertise**. We integrated the encryption as an automated step during data upload to CSC using SD Connect, specifically for files less than 100GB. All the data uploaded using SD Connect are by default encrypted with the Sensitive Data services public encryption key. However, you can choose different options to encrypt your data for analysis or sharing (see SD Connect).
 
-Sensitive Data services for research provide CSC customers with a secure cloud computing environment that can be used to process sensitive data according to CSC policies and [general terms of use](https://research.csc.fi/general-terms-of-use). 
 
 
 ## Legal agreements
