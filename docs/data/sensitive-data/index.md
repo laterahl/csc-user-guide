@@ -1,7 +1,9 @@
 
-# Sensitive Data Services for Research: user guide
+# Sensitive Data Services for research: user guide
 
-This guide, in CSC Docs, introduces CSC Sensitive Data Services. 
+This guide, in CSC Docs, introduces CSC Sensitive Data Services. To navigate the CSC user guide, click on the topics on the left-hand side of the navigation bar or use the search functionality.
+
+We are currently updating the documentation and video tutorials. 
 
 Below you can:
 
@@ -19,21 +21,29 @@ For general information, see:
 
 
 !!! Note
-    **Do you have any question? Would you like to dicuss a specific project?** Don't hesitate to contact us at servicedesk@csc.fi (subject: Sensitive Data). Our team is here to help.
+    **Do you have any questions? Would you like to discuss a specific project?** Don't hesitate to contact us at servicedesk@csc.fi (subject: Sensitive Data). Our team is here to help.
 
 
+## [Introduction]
+
+  * [**Legal agreements**]
+  * [**Getting started**]
+  * [**Useful terminology**]
   
 ## [Sensitive Data Connect](./sd_connect.md)
 Store and share.
    
- * **Before you start**
- 
- * **Overview**
 
- * **Service access**
+  * [**Key features**]
+
+  * [**Before you start**]
+  
+  * [**Overview**]
  
- * **Login and authentication** 
-   
+  * [**Service access**](
+  
+  * [**Authentication**]
+
  * **Introduction to the User Interface** ( UI not available until 16 of March)
    
  * **Sensitive data encryption and upload (less than 1 GB) - User Interface** ( UI not available until 16 of March)
@@ -62,98 +72,40 @@ Analyse and compute.
 
   * [**Before you start**](sd_desktop.md#before-you-start)
   
-  * [**Overview**](sd_desktop.md#overview)  (needs to be finalized)
+  * [**Overview**](sd_desktop.md#overview)  (needs review)
  
   * [**Service access**](sd_desktop.md#service-access)  
   
-  * [**Authentication**](sd_desktop.md#login) (dependent on new MFA user interface)
+  * [**Authentication**](sd_desktop.md#authentication) (dependent on new MFA user interface)
 
   * [**Setting up a virtual Desktop**](sd_desktop.md#setting-up-a-virtual-desktop) 
 
-  * **Working with Desktop**
+  * [**Working with Desktop**](sd_desktop.md#working-with-your-virtual-desktop)
 
-  * **Data access**
+  * [**Accessing encrypted sensitive data within SD Desktop**](sd_desktop.md#accessing-encrypted-sensitive-data-within-sd-desktop)
 
-  * [**Available software on SD Desktop**](./pre-installed_software.md)
+  * [**Default programs available on SD Desktop**](sd_desktop.md#default-programs-available-on-sd-desktop)
   
   * [**Software customization**](sd-desktop-singularity.md) Advanced
 
-  * **Data export** (dependent on download swapping available from 16 of March)
+  * [**Data export**](sd_desktop.md#data-export-from-sd-desktop)
 
-  * **Deleting a private Desktop** 
+  * [**Deleting your virtual Desktop**](sd_desktop.md#deleting-your-virtual-desktop)
   
-  * **Troubleshooting**
+  * [**Troubleshooting**](sd_desktop.md#troubleshooting)
   
   
 
   
+  
+## Services in pilot phase:
   
 ## [Finnish Federated EGA](./federatedega.md)
-Publish genetic data under controlled access. (Pilot pahse).
+Publish genetic data under controlled access. 
+Preliminary guide.
  
-*  **Data submission process: Overview**
-
-* **Application form**
-
-* **Legal agreements**
-
-* **Credentials**
-
-* **Data formats**
-
-* **Data encryption and uplaod to the Finnish Node**
-          
- * **Metadata submission using Central EGA submitter portal**
- 
- * **Data release**
-
-* **Data access**
-
-* **Data access for applicants**
-
-* **Data approval for DACS**
-  
-  
   
 ## [Sensitive Data Apply](./sd-apply.md)
-Apply for re-use. (Pilot phase)
-  
-  **Data access for applicants: Overview**
-  
-  * **Log in**
-  
-  * **Apply for access**
-  
-  * **Submit the application form**
-  
-  * **Wait for approval**
-  
-  * **Set up your Desktop**
-  
-  * **Export your results**
-  
-  **Data approval for data owners (DACs)**
-
-
-
-
-
-
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
+Apply for re-use. 
+Preliminary guide. 
+ 
