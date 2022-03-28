@@ -1,8 +1,33 @@
 
 # SD Connect (Sensitive Data Connect)
 
-## Before you start
+SD Connect is a web-user interface that allows you to encrypt and upload sensitive to CSC from your web browser. You can compare this services to a virtual hardrive, that you can use to securly store your reserch data in the cloud. No specific techincal experties are required to use the service. SD Connect is designed to store and easily share sensitive data, providing a secure workspace for collaborative research projects. All the data stored in SD Connect can be accessed via SD Desktop for data analysis if they are encrypted using the Sensitive Data services public encryption key (defualt data upload in SD Connect).
 
+In the following user guide you can learn how to:
+
+* apply for service access;
+* encrypted and upload sensitive data using SD Connect using the sensitive data services encrption key (for analysis in SD Deskto)p;
+* encrypted and upload sensitive data using SD Connect for data sharing;
+* encrypted and upload sensitive data programmatically.
+
+
+## Key features
+
+* Accessible via web browser from your computer (Mac, Linux or Windows) and from any location (no need to install specific programs or use a VPN).
+
+* Only your colleagues (or CSC project members) can access encrypted files stored in the same CSC project. 
+
+* Data upload and authomated encryption via drag-drop using web-browser(less than 100 GB, larged datasets can be uploaded programamtically).
+
+* Facilitates secure data sharing.
+
+* Can be used to store any type of data: text files, images, audio files, video, and genetic data (default space 10 TB, additional space required contact servicedesk@csc.fi).
+
+* Data stored in SD Connect can be accessed via SD Desktop for data analysis (if they are encrypted using also the Sensitive Data services public encryption key, defaultoption during data upload via SD Connect).
+
+
+
+## Before you start
 
 * According to CSC policies and [general terms of use](https://research.csc.fi/general-terms-of-use), sensitive data always needs to be encrypted when uploaded or stored in CSC services for sensitive data. In this paragraph, we provide instructions on encrypting a copy of your data with CSC encryption key and Crypt4GH. For general information about Crypt4GH check the [Data encryption for data sharing](./crypt4gh_client.md) paragraph or  [crypt4gh GIT site](https://github.com/EGA-archive/crypt4gh.git).
     
@@ -13,20 +38,22 @@
     SD Connect and SD Desktop have not yet been security audited. Because of that users may not process any personal data granted for the purposes of the Act on the Secondary Use of Health and Social Data (552/2019) by ***Findata.***
 
 
-## Login  
+## Service access 
+
+To access SD Desktop go to [MyCSC](https://my.csc.fi) and:
+
+* set up [a CSC account](../../accounts/how-to-create-new-user-account.md);
+* [join](../../accounts/how-to-add-members-to-project.md) or set up [a CSC project](../../accounts/how-to-create-new-project.md);
+* fill in the [description of data processing activities](../../accounts/when-your-project-handles-personal-data.md) form;
+* add [service access to Allas](../../accounts/how-to-add-service-access-for-project.md);
 
 
-To access SD Connect go to [MyCSC](https://my.csc.fi) and:
-
-* set up [**a CSC account**](../../accounts/how-to-create-new-user-account.md);
-* set up [**a CSC project**](../../accounts/how-to-create-new-project.md) or [join a project](../../accounts/how-to-add-members-to-project.md);
-* add [**service access to Allas**](../../accounts/how-to-add-service-access-for-project.md) (CSC cloud storage solution);
-* fill in the [**description of data processing activities**](../../accounts/when-your-project-handles-personal-data.md) form;
-* apply for additional [billing units](../../accounts/how-to-apply-for-billing-units.md) or [disk quota](../../accounts/how-to-increase-disk-quotas.md), if needed.
+For specific guidance regarding these steps check the [Accounts](../../accounts/index.md) paragraph at the beginning of this user guide.
 
 
+## Authentication
 
-Login to SD Connect is currently possible only with Haka (a user identity federation system) and CSC credentials at:
+Login to SD Connect is currently possible only with CSC credentialsand  Haka (a user identity federation system) at:
 
    * [https://sd-connect.csc.fi/](https://sd-connect.csc.fi) 
 
@@ -49,6 +76,9 @@ The interface is compatible with all modern web browsers.
 <iframe width="280" height="155" srcdoc="https://www.youtube.com/embed/CMMwzl82dBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+
+
+
 Once you log in to SD Connect you access the default front-page: **Browser**.
 
 In this page you can :
@@ -66,7 +96,6 @@ In this page you can :
 
 
 
-
 * clicking on **edit** you can type in and add appropriate tags to describe buckets or files. 
 
 <img width="570" alt="space in user guide" src="https://user-images.githubusercontent.com/83574067/123925806-efb57a80-d993-11eb-8f63-622833e958ef.png">
@@ -75,11 +104,9 @@ In this page you can :
 
 
 
-
 In the  **User information** page you can:
 
 * in **Currently Consumes** view statistics about the selected CSC project resource usage: billing unit consumption and the total project storage usage (default storage 10 TiB);
-
 
 * in **Project usage** you can view the SD Connect **Project Identifier**, an ID associated to your CSC project. This ID is required when you want to share containers with other CSC projects using SD Connect user interface. It does not contain sensitive information, thus it can be shared with your colleagues or collaborators via email.
 
