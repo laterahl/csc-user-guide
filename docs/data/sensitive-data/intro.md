@@ -27,13 +27,10 @@ Once you upload encrypted sensitive data to CSC via Sensitive Data services, the
 The General Data Protection Regulation and Finnish national laws regulate sensitive personal data processing. To comply with this regulation, specific agreements regarding data processing and framework agreements between the Data Controllers (academic organization) and CSC (as the Data Processor) need to be in place.
 For more inforamtion see: [CSC General terms of use](https://research.csc.fi/general-terms-of-use) and [CSC Data Processing Agreement](https://research.csc.fi/data-processing-agreement) and [Definition of sensitive data](https://research.csc.fi/definition-of-sensitive-data).
 
-To facilitate this process, when you create a new CSC project using the MyCSC portal, you are guided to accept CSC Data Processing Agreement (DPA) and describe the type of data you are processing in the "Description of processing activities" form.  
-
-You can then download these documents and share them with the legal services in your organisation or the Data Controller's legal representative. If you have any questions about these documents or additional legal agreements are needed between your organisation and CSC, contact us at servicedesk@csc.fi (email subject: Sensitive Data).
+To facilitate this process, when you create a new CSC project using the MyCSC portal, you are guided to accept CSC Data Processing Agreement (DPA) and describe the type of data you are processing in the "Description of processing activities" form. You can then download these documents and **share them with the legal services in your organisation** or the Data Controller's legal representative. If you have any questions about these documents or additional legal agreements are needed between your organisation and CSC, contact us at servicedesk@csc.fi (email subject: Sensitive Data).
 
 In case you need to draft a **Data Protection Impact Assessment (DPIA)**, you can find the technical and organizational security measures for the protection of
 sensitive data in CSC Sensitive Data service available for download [here](./technical-organisational-sec-measures.pdf).
-
 
 
 ## Getting access
@@ -54,10 +51,7 @@ To access CSC's services for sensitive data using [MyCSC](https://my.csc.fi) por
 For specific guidance regarding these steps, check the [Accounts](../../accounts/index.md) paragraph at the beginning of this user guide.
 
 
-
-
-## Useful terminology:
-
+## Useful terminology
 
 **Allas**: A cloud storage service of CSC. SD Connect is a user interface that specifically facilitates sensitive data encryption and storage in Allas. Users can also access Allas programmatically with interfaces for non-sensitive data.
 
