@@ -18,14 +18,14 @@ Sensitive Data services for research consists of four components, all accessible
 * Sensitive Data Apply (pilot phase): promotes data reuse allowing data owners to manage access to published datasets via a simple user interface. 
 
 
-Once you upload encrypted sensitive data to CSC via Sensitive Data services, they are accessible from one service component to the other while the original files are always encrypted: during data storage or analysis. **Data encryption does not require technical expertise**. We integrated the encryption as an automated step during data upload to CSC using SD Connect, specifically for files less than 100GB. All the data uploaded using SD Connect are by default encrypted with the Sensitive Data services public encryption key. However, you can choose different options to encrypt your data for analysis or sharing (see SD Connect).
+Once you upload encrypted sensitive data to CSC via Sensitive Data services, they are accessible from each service component, while the original files are always encrypted: during data storage or analysis. **Data encryption does not require technical expertise**. We integrated the encryption as an automated step in the SD Connect user interface, specifically for files less than 100 GB. All the data uploaded using SD Connect are by default encrypted with the Sensitive Data services public encryption key. However, you can choose different options to encrypt your data for analysis or sharing (see SD Connect user guide).
 
 
 
 ## Legal agreements
 
 The General Data Protection Regulation and Finnish national laws regulate sensitive personal data processing. To comply with this regulation, specific agreements regarding data processing and framework agreements between the Data Controllers (academic organization) and CSC (as the Data Processor) need to be in place.
-For more inforamtion see: [CSC General terms of use](https://research.csc.fi/general-terms-of-use) and [CSC Data Processing Agreement](https://research.csc.fi/data-processing-agreement) and [Definition of sensitive data](https://research.csc.fi/definition-of-sensitive-data).
+For further information see also: [CSC General terms of use](https://research.csc.fi/general-terms-of-use) and [CSC Data Processing Agreement](https://research.csc.fi/data-processing-agreement) and [Definition of sensitive data](https://research.csc.fi/definition-of-sensitive-data).
 
 To facilitate this process, when you create a new CSC project using the MyCSC portal, you are guided to accept CSC Data Processing Agreement (DPA) and describe the type of data you are processing in the "Description of processing activities" form. You can then download these documents and **share them with the legal services in your organisation** or the Data Controller's legal representative. If you have any questions about these documents or additional legal agreements are needed between your organisation and CSC, contact us at servicedesk@csc.fi (email subject: Sensitive Data).
 
