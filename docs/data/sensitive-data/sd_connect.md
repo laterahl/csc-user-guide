@@ -1,7 +1,7 @@
 
 # SD Connect (Sensitive Data Connect)
 
-SD Connect is a web-user interface that allows you to encrypt and upload sensitive to CSC from your web browser. You can compare this services to a virtual hardrive, that you can use to securly store your reserch data in the cloud. No specific techincal experties are required to use the service. SD Connect is designed to store and easily share sensitive data, providing a secure workspace for collaborative research projects. All the data stored in SD Connect can be accessed via SD Desktop for data analysis if they are encrypted using the Sensitive Data services public encryption key (defualt data upload in SD Connect).
+SD Connect is a web-user interface that allows you to encrypt and upload sensitive data to CSC from your web browser. You can compare this services to a virtual hardrive, that you can use to securly store your reserch data in the cloud. No specific techincal experties are required to use the service. SD Connect is designed to store and easily share sensitive data, providing a secure workspace for collaborative research projects. All the data stored in SD Connect can be accessed via SD Desktop for data analysis, if encrypted with the Sensitive Data services public encryption key (defualt data upload in SD Connect).
 
 In the following user guide you can learn how to:
 
@@ -17,13 +17,18 @@ In the following user guide you can learn how to:
 
 * Only your colleagues (or CSC project members) can access encrypted files stored in the same CSC project. 
 
-* Data upload and authomated encryption via drag-drop using web-browser(less than 100 GB, larged datasets can be uploaded programamtically).
+* Data upload and authomated encryption via drag-drop using web-browser (less than 100 GB, larged datasets can be uploaded programamtically).
 
-* Facilitates secure data sharing.
+* Can be used to store any type of data: text files, images, audio files, video, and genetic data (default space 10 TB, additional space required contact servicedesk@csc.fi). By default a project can store up to 10 TiB of data.
 
-* Can be used to store any type of data: text files, images, audio files, video, and genetic data (default space 10 TB, additional space required contact servicedesk@csc.fi).
+* Facilitates secure data sharing (via url) with other CSC projects.
 
 * Data stored in SD Connect can be accessed via SD Desktop for data analysis (if they are encrypted using also the Sensitive Data services public encryption key, defaultoption during data upload via SD Connect).
+
+
+* **Limitations**:
+
+Data (sensitive or non sensitive, e.g. scripts) stored in SD Connect/ Allas needs always to be encrypted. Files and folder are stored in bukects: this is the techincal name for the main folder in which all the files (also colled objects) are stored. Files stored in SD Connect/Allas can be directly analised in read-only mode from SD desktop, but they can not be directly edited, unless they are copied inside the virtual Desktop. 
 
 
 
@@ -68,7 +73,6 @@ The interface is compatible with all modern web browsers.
 
 
 
-
 ## User Interface pages
 
 <img width="570" alt="space in user guide" src="https://user-images.githubusercontent.com/83574067/123925776-e75d3f80-d993-11eb-8c1e-7f77341aa382.png">
@@ -76,10 +80,14 @@ The interface is compatible with all modern web browsers.
 <iframe width="280" height="155" srcdoc="https://www.youtube.com/embed/CMMwzl82dBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+Once you log in to SD Connect you can access three main pages: 
+
+* the default **Browser** page, where are listed the buckets (or main folders) in which your encrypted files are stored;
+* the **Shared** page, where you can managed shared buckets;
+* the **User information** page, where you can visualise the resournces consumed by yout CSC project and the Project Identifier;
 
 
-
-Once you log in to SD Connect you access the default front-page: **Browser**.
+### Browser page
 
 In this page you can :
 
@@ -103,8 +111,9 @@ In this page you can :
 ![SD Connect image 2](https://user-images.githubusercontent.com/83574067/149062085-a149fe12-0d9a-4dd2-87d4-d2e82ca2bbc4.png)
 
 
+### User information page
 
-In the  **User information** page you can:
+In this view you can:
 
 * in **Currently Consumes** view statistics about the selected CSC project resource usage: billing unit consumption and the total project storage usage (default storage 10 TiB);
 
@@ -118,6 +127,7 @@ In the  **User information** page you can:
 ![SD-Connect-2](https://user-images.githubusercontent.com/83574067/124910227-098a3980-dff4-11eb-8029-57af3abc5cf4.png)
 
 
+### Shared page
 
 
 In the **Shared** page:
