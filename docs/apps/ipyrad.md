@@ -34,11 +34,12 @@ After that you can activate bioconda environment and check the available conda e
 module load bioconda
 conda env list
 ```
-Now you can activate iPyrad enroment:
+Now you can activate iPyrad environment:
 
 ```text
-source activate ipyrad-0.9.81
+source activate ipyrad
 ```
+
 !!! Note
     The actual _ipyrad_ command should always be executed in a batch job environment.
 
